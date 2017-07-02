@@ -1,4 +1,4 @@
-en - contains "British English" as base for translations (from https://www.phpbb.com/customise/db/download/134676)
+en - contains "British English 3.2.0 " as base for translations (from https://www.phpbb.com/customise/db/translation/british_english/)
 
 lt - contains Lithuanian translation. Download LT folder and put it in "root/language/lt". ACP is in English. Better for administrators and less translation.
 
