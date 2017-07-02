@@ -1,0 +1,8 @@
+Subject: Raportas "{PM_SUBJECT}" uždarytas
+
+Sveiki {USERNAME},
+
+Jūs gavote šį laišką, nes moderatorius arba administratorius pasirūpino raportu, kurį apie asmeninę žinutę "{PM_SUBJECT}" užpildėte "{SITENAME}" diskusijose. Raportas uždarytas. Jeigu turite tolesnių klausimų, kreipkitės į {CLOSER_NAME} asmenine žinute.
+
+
+{EMAIL_SIG}

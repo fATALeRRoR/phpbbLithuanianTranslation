@@ -1,0 +1,11 @@
+Subject: Priminimas apie neaktyvų vartotojo vardą
+
+Sveiki {USERNAME},
+
+Šiuo laišku primename, kad {REGISTER_DATE} jūs užsiregistravote "{SITENAME}" diskusijose. Iki šiol jūs neaktyvavote savo vartotojo vardo. Jeigu norite jį aktyvuoti, aplankykite šią nuorodą:
+
+{U_ACTIVATE}
+
+Dėkojame, kad užsiregistravote "{SITENAME}" diskusijose. Tikimės jūsų dalyvavimo.
+
+{EMAIL_SIG}

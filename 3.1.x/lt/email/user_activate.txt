@@ -1,0 +1,9 @@
+Subject: Aktyvuokite savo vartotojo vardą
+
+Sveiki {USERNAME},
+
+Greičiausiai dėl pakeitimų aprašyme, jūsų vartotojo vardas "{SITENAME}" diskusijose buvo deaktyvuotas. Jeigu norite vėl aktyvuoti savo vartotojo vardą, paspauskite ant nuorodos žemiau:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

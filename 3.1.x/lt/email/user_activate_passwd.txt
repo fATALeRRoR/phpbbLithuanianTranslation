@@ -1,0 +1,17 @@
+Subject: Naujo slaptažodžio patvirtinimas
+
+Sveiki {USERNAME}
+
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijose paprašėte (arba kažkas apsimetantis jumis paprašė) naujo slaptažodžio. Jeigu neprašėte naujo slaptažodžio, tiesiog ignoruokite šį laišką, arba jeigu gaunate tokį laišką prieš savo norą nebe pirmą kartą, kreipkitės į diskusijų administratorių.
+
+Jeigu norite naudotis naujuoju slaptažodžiu, paspauskite ant nuorodos žemiau.
+
+{U_ACTIVATE}
+
+Sėkmingai jį patvirtinę nuo šiol galėsite prisijungti šiuo slaptažodžiu:
+
+Slaptažodis: {PASSWORD}
+
+Taip pat, bet kada galite pasikeisti slaptažodį per savo aprašymą. Jeigu iškilo kokių nors neaiškumų, susisiekite su diskusijų administratoriumi.
+
+{EMAIL_SIG}

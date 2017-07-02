@@ -1,0 +1,10 @@
+Subject: Jūsų prašymas patvirtintas
+
+Sveikiname,
+
+Jūsų prašymas prisijungti prie grupės "{GROUP_NAME}" "{SITENAME}" diskusijose buvo patvirtintas.
+Žemiau esanti nuoroda parodo jūsų grupių narystę.
+
+{U_GROUP}
+
+{EMAIL_SIG}

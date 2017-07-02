@@ -1,0 +1,14 @@
+Subject: Vartotojo vardo aktyvavimas
+
+Sveiki,
+
+Ką tik buvo sukurtas arba deaktyvuotas vartotojo vardas "{USERNAME}". Jeigu reikia, patikrinkite šio vartotojo aprašymą ir priimkite teisingą sprendimą.
+
+Paspaudę ant šios nuorodos pamatysite vartotojo aprašymą:
+{U_USER_DETAILS}
+
+Paspaudę ant šios nuorodos aktyvuosite vartotojo vardą:
+{U_ACTIVATE}
+
+
+{EMAIL_SIG}

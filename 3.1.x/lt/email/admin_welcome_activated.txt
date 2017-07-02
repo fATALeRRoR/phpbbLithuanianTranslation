@@ -1,0 +1,9 @@
+Subject: Vartotojo vardas aktyvuotas
+
+Sveiki {USERNAME},
+
+Jūsų vartotojo vardas "{SITENAME}" diskusijose buvo aktyvuotas. Jau galite prisijungti.
+
+Jūsų slaptažodis saugiai saugomas mūsų duomenų bazėje ir mes negalime jums jo atsiųsti. Jeigu jį pamiršite, visada galėsite paprašyti naujo slaptažodžio, pasinaudoję el. paštu, kuris susietas su šiuo vartotojo vardu.
+
+{EMAIL_SIG}
