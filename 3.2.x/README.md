@@ -3,6 +3,7 @@ en - contains "British English 3.2.0 " as base for translations (from https://ww
 lt - contains Lithuanian translation. Download LT folder and put it in "root/language/lt". ACP is in English. Better for administrators and less translation work.
 
 root\language\en
+
 root\language\lt
 
 See more on https://www.phpbb.com/languages/apply.php
