@@ -1,19 +1,20 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Sveiki atvykę į "{SITENAME}" diskusijas
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
+Išsaugokite šį laišką. Jūsų prisijungimo informacija:
 
 ----------------------------
-Username: {USERNAME}
+Vartotojo vardas: {USERNAME}
 ----------------------------
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Jūsų slaptažodis saugiai saugomas mūsų duomenų bazėje ir mes negalime jums jo atsiųsti. Jeigu jį pamiršite, visada galėsite paprašyti naujo slaptažodžio, pasinaudoję el. paštu, kuris susietas su šiuo vartotojo vardu.
 
-Please visit the following link in order to activate your account:
+Norėdami aktyvuoti savo vartotojo vardą aplankykite šią nuorodą:
 
 {U_ACTIVATE}
 
-Thank you for registering.
+
+Dėkojame, kad užsiregistravote.
 
 {EMAIL_SIG}

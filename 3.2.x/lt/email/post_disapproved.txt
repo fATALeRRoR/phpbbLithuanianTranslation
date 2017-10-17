@@ -1,11 +1,12 @@
-Subject: Post disapproved - "{POST_SUBJECT}"
+Subject: Pranešimas "{POST_SUBJECT}" atmestas
 
-Hello {USERNAME},
+Sveiki {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Jūs gavote šį laišką, nes moderatorius arba administratorius "{SITENAME}" diskusijose atmetė jūsų pranešimą "{POST_SUBJECT}".
 
-The following reason was given for the disapproval:
+Pranešimo atmetimo priežastis:
 
 {REASON}
+
 
 {EMAIL_SIG}

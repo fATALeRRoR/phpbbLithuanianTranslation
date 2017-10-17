@@ -1,8 +1,8 @@
-Subject: Reactivate your account
+Subject: Aktyvuokite savo vartotojo vardą
 
-Hello {USERNAME},
+Sveiki {USERNAME},
 
-Your account on "{SITENAME}" has been deactivated, most likely due to changes made to your profile. In order to reactivate your account you must click on the link below:
+Greičiausiai dėl pakeitimų aprašyme, jūsų vartotojo vardas "{SITENAME}" diskusijose buvo deaktyvuotas. Jeigu norite vėl aktyvuoti savo vartotojo vardą, paspauskite ant nuorodos žemiau:
 
 {U_ACTIVATE}
 

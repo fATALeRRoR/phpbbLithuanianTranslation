@@ -1,11 +1,10 @@
-Subject: You have been added to this usergroup
+Subject: Jūs buvote priimtas į vartotojų grupę
 
-Congratulations,
+Sveikiname,
 
-You have been added to the "{GROUP_NAME}" group on "{SITENAME}".
-This action was done by a group leader or the site administrator, contact them for more information.
+Grupės lyderis arba "{SITENAME}" diskusijų administratorius priėmė jus į grupę "{GROUP_NAME}".
 
-You can view your groups information here:
+Informaciją apie savo grupes galite matyti paspaudę ant šios nuorodos:
 {U_GROUP}
 
 {EMAIL_SIG}

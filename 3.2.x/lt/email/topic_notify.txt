@@ -1,19 +1,20 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Naujas atsakymas temoje "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Sveiki {USERNAME},
 
-You are receiving this notification because you are watching the topic "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply<!-- IF AUTHOR_NAME != '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. No more notifications will be sent until you visit the topic.
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijose esate užsiprenumeravę temą "{TOPIC_TITLE}". Po jūsų paskutinio apsilankymo, šioje temoje buvo parašytas naujas pranešimas<!-- IF AUTHOR_NAME !== '' -->, kurio autorius {AUTHOR_NAME}<!-- ENDIF -->. Norėdami peržiūrėti visus naujus pranešimus, paspauskite ant žemiau esančios nuorodos. Kol jų neperžiūrėsite, daugiau laiškų apie naujus pranešimus šioje temoje negausite.
 
-If you want to view the newest post made since your last visit, click the following link:
+Jeigu norite peržiūrėti naujus pranešimus, paspauskite ant nuorodos žemiau:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Jeigu norite peržiūrėti visą temą, paspauskite ant šios nuorodos:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Jeigu norite peržiūrėti visą forumą, paspauskite ant šios nuorodos:
 {U_FORUM}
 
-If you no longer wish to watch this topic you can either click the "Unsubscribe topic" link found at the bottom of the topic above, or by clicking the following link:
+Jeigu daugiau nebenorite prenumeruoti šios temos, paspauskite ant nuorodos "Atsisakyti temos" minėtoje temoje arba ant šios nuorodos:
+
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

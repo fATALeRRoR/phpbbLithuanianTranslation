@@ -1,13 +1,14 @@
-Subject: Activate user account
+Subject: Vartotojo vardo aktyvavimas
 
-Hello,
+Sveiki,
 
-The account owned by "{USERNAME}" has been deactivated or newly created, you should check the details of this user (if required) and handle it appropriately.
+Ką tik buvo sukurtas arba deaktyvuotas vartotojo vardas "{USERNAME}". Jeigu reikia, patikrinkite šio vartotojo aprašymą ir priimkite teisingą sprendimą.
 
-Use this link to view the user's profile:
+Paspaudę ant šios nuorodos pamatysite vartotojo aprašymą:
 {U_USER_DETAILS}
 
-Use this link to activate the account:
+Paspaudę ant šios nuorodos aktyvuosite vartotojo vardą:
 {U_ACTIVATE}
+
 
 {EMAIL_SIG}

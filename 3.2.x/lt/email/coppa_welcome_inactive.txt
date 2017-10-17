@@ -1,42 +1,40 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Sveiki atvykę į "{SITENAME}" diskusijas
 
 {WELCOME_MSG}
 
-In compliance with the COPPA, your account is currently inactive.
+Įjungta apsaugos nuo vaikų funkcija (COPPA). Jūsų vartotojo vardas neaktyvus.
 
-Please print this message and have your parent or guardian sign and date it. Then fax it to:
+Išspausdinkite šį laišką ir duokite pasirašyti savo tėvams ar globėjams. Tada išsiųskite ją faksu:
 
 {FAX_INFO}
 
-OR mail it to:
+ARBA adresu:
 
 {MAIL_INFO}
 
------------------------------- CUT HERE ------------------------------
-Permission to participate at "{SITENAME}" - {U_BOARD}
+------------------------------ KIRPTI ČIA ------------------------------
+Leidimas dalyvauti "{SITENAME}" diskusijose - {U_BOARD}
 
-Username: {USERNAME}
-Email: {EMAIL_ADDRESS}
+Vartotojo vardas: {USERNAME}
+El. pašto adresas: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
-I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
-I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
+SUSIPAŽINAU SU INFORMACIJA, KURIĄ MAN PATEIKĖ MANO VAIKAS IR LEIDŽIU "{SITENAME}" PUSLAPIUI SAUGOTI ŠIĄ INFORMACIJĄ. SUPRANTU, KAD ŠIUOS DUOMENIS GALIMA BET KADA PAKEISTI ĮVEDUS SLAPTAŽODĮ. TAIP PAT SUPRANTU, KAD ŠI INFORMACIJA BUS PAŠALINTA IŠ "{SITENAME}" PUSLAPIO KAI TIK AŠ PAPRAŠYSIU.
 
 
-Parent or guardian 
-(print your name here): _____________________
+Tėvai arba globėjai 
+(jūsų vardas): _____________________
 
-(sign here): __________________ 
+(parašas): __________________ 
 
-Date: _______________
+Data: _______________
 
------------------------------- CUT HERE ------------------------------
+------------------------------ KIRPTI ČIA ------------------------------
 
 
-Once the administrator has received the above form via fax or regular mail, your account will be activated.
+Kai tik administratorius gaus šią pasirašytą formą faksu arba paštu, jūsų vartotojo vardas bus aktyvuotas.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Jūsų slaptažodis saugiai saugomas mūsų duomenų bazėje ir mes negalime jums jo atsiųsti. Jeigu jį pamiršite, visada galėsite paprašyti naujo slaptažodžio, pasinaudoję el. paštu, kuris susietas su šiuo vartotojo vardu.
 
-Thank you for registering.
+Dėkojame, kad užsiregistravote.
 
 {EMAIL_SIG}

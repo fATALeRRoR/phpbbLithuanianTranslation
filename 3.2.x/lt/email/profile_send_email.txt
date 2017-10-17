@@ -1,13 +1,12 @@
+Sveiki {TO_USERNAME},
 
-Hello {TO_USERNAME},
-
-The following is an email sent to you by {FROM_USERNAME} via your account on "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Šis laiškas jums siunčiamas nuo "{SITENAME}" diskusijų dalyvio {FROM_USERNAME}. Jeigu laiškas yra internetinė šiukšlė (spam), arba įžeidžiančio ar kitokio nemalonaus turinio, prašome susisiekti su diskusijų administratoriumi šiuo adresu:
 
 {BOARD_CONTACT}
 
-Include this full email (particularly the headers). Please note that the reply address to this email has been set to that of {FROM_USERNAME}.
+Į savo laišką įtraukite ir šį laišką (įskaitant visas antraštes). Taip pat atminkite, kad atsakydami į šį laišką, nusiųsite pranešimą vartotojui {FROM_USERNAME}, todėl jeigu norite susisiekti su administratoriumi, turėsite sukurti naują laišką.
 
-Message sent to you follows
+Jums siunčiamo laiško tekstas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

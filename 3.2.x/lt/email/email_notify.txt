@@ -1,16 +1,16 @@
-Subject: "{SITENAME}" - Email a friend
+Subject: laiškas nuo "{SITENAME}" diskusijų dalyvio
 
-Hello {TO_USERNAME},
+Sveiki {TO_USERNAME},
 
-This email was sent from "{SITENAME}" by {FROM_USERNAME} who thought you may be interested in the following topic:
+Šis laiškas jums siunčiamas nuo "{SITENAME}" diskusijų dalyvio {FROM_USERNAME}, kuris mano jog jus sudomins ši tema:
 
 {TOPIC_NAME}
 
-You can find it at:
+Ją galite perskaityti paspaudę ant nuorodos žemiau:
 
 {U_TOPIC}
 
-A message from {FROM_USERNAME} may also be included below. Please note that this message has not been seen or approved by the board administrators. If you wish to complain about having received this email please contact the board administrator at {BOARD_CONTACT}. Please quote the message headers when contacting this address.
+Taip pat dar žemiau galite perskaityti vartotojo {FROM_USERNAME} žinutę skirtą jums. Atsiminkite, kad šis laiškas nebuvo patikrintas diskusijų administratoriaus. Jeigu norite pasiskųsti apie tai, kad gavote šį laišką, susisiekite su juo adresu {BOARD_CONTACT}. Į savo laišką įtraukite ir šio laiško antraštes.
 
 ----------
 

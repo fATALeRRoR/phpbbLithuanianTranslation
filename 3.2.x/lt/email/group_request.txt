@@ -1,9 +1,9 @@
-Subject: A request to join your group has been made
+Subject: Vartotojo prašymas prisijungti prie jūsų grupės
 
-Dear {USERNAME},
+Brangus {USERNAME},
 
-The user "{REQUEST_USERNAME}" has requested to join the group "{GROUP_NAME}" you moderate on "{SITENAME}".
-To approve or deny this request for group membership please visit the following link:
+Prie jūsų moderuojamos grupės "{GROUP_NAME}" "{SITENAME}" diskusijose nori prisijungti vartotojas "{REQUEST_USERNAME}".
+Norėdami patvirtinti arba atmesti jo kandidatūrą paspauskite ant nuorodos žemiau:
 
 {U_PENDING}
 

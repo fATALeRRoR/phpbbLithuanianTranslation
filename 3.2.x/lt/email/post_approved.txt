@@ -1,13 +1,14 @@
-Subject: Post approved - "{POST_SUBJECT}"
+Subject: Pranešimas "{POST_SUBJECT}" patvirtintas
 
-Hello {USERNAME},
+Sveiki {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
+Jūsų gavote šį laišką, nes administratorius arba moderatorius "{SITENAME}" diskusijose patvirtinto jūsų pranešimą "{POST_SUBJECT}".
 
-If you want to view the post, click the following link:
+Jeigu norite peržiūrėti pranešimą, paspauskite ant šios nuorodos:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Jeigu norite peržiūrėti visą temą, paspauskite ant šios nuorodos:
 {U_VIEW_TOPIC}
+
 
 {EMAIL_SIG}

@@ -1,18 +1,19 @@
-Subject: Reactivate your account on "{SITENAME}"
+Subject: Aktyvuokite savo vartotojo vardą "{SITENAME}" diskusijose
 
-A board administrator requested that your account be reactivated. Your account is currently inactive.
-Please follow the steps listed here to reactivate your account.
+Diskusijų administratorius paprašė dar kartą aktyvuoti savo vartotojo vardą.
+Norėdami tai padaryti, sekite instrukcijomis žemiau.
 
-Please keep this email for your records. Your account information is as follows:
+Išsaugokite šį laišką. Jūsų prisijungimo informacija:
 
 ----------------------------
-Username: {USERNAME}
+Vartotojo vardas: {USERNAME}
 ----------------------------
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Jūsų slaptažodis saugiai saugomas mūsų duomenų bazėje ir mes negalime jums jo atsiųsti. Jeigu jį pamiršite, visada galėsite paprašyti naujo slaptažodžio, pasinaudoję el. paštu, kuris susietas su šiuo vartotojo vardu.
 
-Please visit the following link to reactivate your account:
+Jūs negalėsite prisijungti, kol nepaspausite ant šios nuorodos:
 
 {U_ACTIVATE}
+
 
 {EMAIL_SIG}

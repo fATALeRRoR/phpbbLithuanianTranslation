@@ -1,11 +1,12 @@
-Subject: Topic disapproved - "{TOPIC_TITLE}"
+Subject: Tema "{TOPIC_TITLE}" atmesta
 
-Hello {USERNAME},
+Sveiki {USERNAME},
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijų moderatorius arba administratorius atmetė jūsų temą "{TOPIC_TITLE}".
 
-The following reason was given for the disapproval:
+Temos atmetimo priežastis:
 
 {REASON}
+
 
 {EMAIL_SIG}

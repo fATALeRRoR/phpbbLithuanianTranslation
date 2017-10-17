@@ -1,7 +1,8 @@
-Subject: Report deleted - "{PM_SUBJECT}"
+Subject: Raportas "{PM_SUBJECT}" ištrintas
 
-Hello {USERNAME},
+Sveiki {USERNAME},
 
-You are receiving this notification because the report you filed regarding the private message "{PM_SUBJECT}" at "{SITENAME}" was deleted by a moderator or administrator.
+Jūs gavote šį laišką, nes moderatorius arba administratorius ištrynė raportą, kurį apie asmeninę žinutę "{PM_SUBJECT}" užpildėte "{SITENAME}" diskusijose.
+
 
 {EMAIL_SIG}

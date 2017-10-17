@@ -1,11 +1,11 @@
-Subject: Inactive account reminder
+Subject: Priminimas apie neaktyvų vartotojo vardą
 
-Hello {USERNAME},
+Sveiki {USERNAME},
 
-This notification is a reminder that your account at "{SITENAME}", created on {REGISTER_DATE}, remains inactive. If you would like to activate this account, please visit the following link:
+Šiuo laišku primename, kad {REGISTER_DATE} jūs užsiregistravote "{SITENAME}" diskusijose. Iki šiol jūs neaktyvavote savo vartotojo vardo. Jeigu norite jį aktyvuoti, aplankykite šią nuorodą:
 
 {U_ACTIVATE}
 
-Thank you for registering at "{SITENAME}", we look forward to your participation.
+Dėkojame, kad užsiregistravote "{SITENAME}" diskusijose. Tikimės jūsų dalyvavimo.
 
 {EMAIL_SIG}

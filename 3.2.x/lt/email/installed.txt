@@ -1,19 +1,19 @@
-Subject: phpBB installed
+Subject: phpBB sėkmingai įdiegta
 
-Congratulations,
+Sveikiname,
 
-You have successfully installed phpBB on your server.
+Jūsų sėkmingai savo serveryje įdiegėte phpBB.
 
-This email contains important information regarding your installation and should be kept for reference. Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Išsaugokite šį laišką ir jame esančią informaciją. Jūsų slaptažodis saugiai saugomas mūsų duomenų bazėje ir mes negalime jums jo atsiųsti. Jeigu jį pamiršite, visada galėsite paprašyti naujo slaptažodžio, pasinaudoję el. paštu, kuris susietas su šiuo vartotojo vardu.
 
 ----------------------------
-Username: {USERNAME}
+Vartotojo vardas: {USERNAME}
 
-Board URL: {U_BOARD}
+Diskusijų URL: {U_BOARD}
 ----------------------------
 
-Useful information regarding the phpBB software can be found in the docs folder of your installation and on phpBB.com's support page - https://www.phpbb.com/support/
+Daugiau naudingos informacijos apie phpBB galite rasti jūsų serveryje įdiegtos phpBB programinės įrangos dokumentacijos kataloge arba phpBB.com palaikymo puslapyje - https://www.phpbb.com/support/
 
-In order to keep your board safe and secure, we highly recommended keeping current with software releases. For your convenience, a mailing list is available at the page referenced above.
+Dėl saugumo rekomenduojame visada įdiegti naujausią phpBB versiją. Naujienas apie visus naujausius programinės įrangos leidimus galite gauti prisijungę prie el. pašto konferencijos, kurią rasite nuorodoje viršuje.
 
 {EMAIL_SIG}

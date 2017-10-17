@@ -1,13 +1,13 @@
-
-The following is an email sent to you by an administrator of "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Jums rašo "{SITENAME}" diskusijų administratorius. Jeigu manote, kad šis laiškas yra internetinė šiukšlė, ar laiško tekstas kokiu nors būdu jus įžeidžia, susisiekite su diskusijų lentos valdytoju adresu:
 
 {CONTACT_EMAIL}
 
-Include this full email (particularly the headers). 
+Nepamirškite pridėti viso šio laiško teksto (įskaitant laiško antraštes).
 
-Message sent to you follows:
+Laiško tekstas:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
+
 
 {EMAIL_SIG}
