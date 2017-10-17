@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'BOARD_UNAVAILABLE'	=> 'Atsiprašome, tačiau diskusijos laikinai nepasiekiamos. Pabandykite jungtis po kelių minučių.',
 	'BROWSING_FORUM'	=> 'Vartotojai naršantys šį forumą: %1$s',	
 	'BROWSING_FORUM_GUESTS'	=> array(
-		1	=> 'Vartotojai naršantys šį forumą: %1$s ir %2$d svečias',
+		1	=> 'Vartotojai naršantys šį forumą: %1$s ir %2$d svečias(ių)',
 		2	=> 'Vartotojai naršantys šį forumą: %1$s ir %2$d svečių',
 	),	
 	'BUTTON_EDIT'			=> 'Redaguoti',
@@ -321,11 +321,11 @@ $lang = array_merge($lang, array(
 
 	'HIDDEN_USERS_ONLINE'		=> array(
 		1	=> '%d slaptas vartotojas',
-		2	=> '%d slapti vartotojai',
+		2	=> '%d slapti(ų) vartotojai(ų)',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
-		1	=> '%d slaptųs',
-		2	=> '%d slapti',
+		1	=> '%d slaptas',
+		2	=> '%d slapti(ų)',
 	),
 	'HIDE_GUESTS'					=> 'Paslėpti svečius',
 	'HIDE_ME'						=> 'Paslėpti mano būseną šios sesijos metu',
@@ -854,8 +854,8 @@ $lang = array_merge($lang, array(
 	'VIEW_NEWEST_POST'	=> 'Peržiūrėti naujausius neskaitytus pranešimus',
 	'VIEW_NOTES'	=> 'Rodyti užrašus apie vartotoją',
 	'VIEW_ONLINE_TIMES'			=> array(
-		1	=> 'based on users active over the past %d minute',
-		2	=> 'based on users active over the past %d minutes',
+		1	=> 'pagal paskutinių %d minučių aktyvumą',
+		2	=> 'pagal paskutinių %d minučių aktyvumą',
 	),	
 	'VIEW_TOPIC'	=> 'Temos rodymas',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Svarbu: ',

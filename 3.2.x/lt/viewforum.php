@@ -37,36 +37,37 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics',
-	'ANNOUNCEMENTS'			=> 'Announcements',
-
-	'FORUM_PERMISSIONS'		=> 'Forum permissions',
-
-	'ICON_ANNOUNCEMENT'		=> 'Announcement',
-	'ICON_STICKY'			=> 'Sticky',
-
-	'LOGIN_NOTIFY_FORUM'	=> 'You have been notified about this forum, please login to view it.',
-
-	'MARK_TOPICS_READ'		=> 'Mark topics read',
-
-	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'You do not have the required permissions to read topics within this forum.',
-	'NO_UNREAD_POSTS_HOT'		=> 'No unread posts [ Popular ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'No unread posts [ Locked ]',
-
-	'POST_FORUM_LOCKED'		=> 'Forum is locked',
-
-	'TOPICS_MARKED'			=> 'The topics for this forum have now been marked read.',
-
-	'UNREAD_POSTS_HOT'		=> 'Unread posts [ Popular ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Unread posts [ Locked ]',
-
-	'VIEW_FORUM'			=> 'View forum',
+	'ACTIVE_TOPICS'	=> 'Aktyvios temos',
+	'ANNOUNCEMENTS'	=> 'Svarbūs pranešimai',
+	
+	'FORUM_PERMISSIONS'	=> 'Forumo teisės',
+	
+	'ICON_ANNOUNCEMENT'	=> 'Svarbi',
+	'ICON_STICKY'	=> 'Dažna',
+	
+	'LOGIN_NOTIFY_FORUM'	=> 'Jums buvo pranešta apie naujus pranešimus šiame forume. Norėdami juos pamatyti, turite prisijungti.',
+	
+	'MARK_TOPICS_READ'	=> 'Pažymėti visas temas kaip perskaitytas',
+	
+	'NEW_POSTS_HOT'	=> 'Yra naujų pranešimų [ Populiari ]',
+	'NEW_POSTS_LOCKED'	=> 'Yra naujų pranešimų [ Užrakinta ]',
+	'NO_NEW_POSTS_HOT'	=> 'Naujų pranešimų nėra [ Populiari ]',
+	'NO_NEW_POSTS_LOCKED'	=> 'Naujų pranešimų nėra [ Užrakinta ]',
+	'NO_READ_ACCESS'	=> 'Jūs neturite teisės skaityti temas šiame forume.',
+	'NO_UNREAD_POSTS_HOT'	=> 'Neperskaitytų pranešimų nėra [ Populiari ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Neperskaitytų pranešimų nėra [ Užrakinta ]',
+	
+	'POST_FORUM_LOCKED'	=> 'Forumas užrakintas',
+	
+	'TOPICS_MARKED'	=> 'Dabar visos temos šiame forume pažymėtos kaip perskaitytos.',
+	
+	'UNREAD_POSTS_HOT'	=> 'Yra neperskaitytų pranešimų [ Populiari ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Yra neperskaitytų pranešimų [ Užrakinta ]',
+	
+	'VIEW_FORUM'	=> 'Forumo rodymas',
 	'VIEW_FORUM_TOPICS'		=> array(
-		1	=> '%d topic',
-		2	=> '%d topics',
+		1	=> '%d tema',
+		2	=> '%d temų',
 	),
+	
 ));
