@@ -1,9 +1,9 @@
-Subject: phpBB is correctly configured to send emails
+Tema: phpBB teisingai sukofigūruotas el. laiškų siuntimui
 
-Hello {USERNAME},
+Sveiki {USERNAME},
 
-Congratulations. If you received this email, phpBB is correctly configured to send emails.
+Sveikiname. Jei gavote šį laišką, phpBB teisingai sukofigūruotas el. laiškų siuntimui.
 
-In case you require assistance, please visit the phpBB support forums - https://www.phpbb.com/community/
+Jei reikia pagalbos, aplankykite phpBB pagalbos forumą - https://www.phpbb.com/community/
 
 {EMAIL_SIG}

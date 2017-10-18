@@ -37,88 +37,88 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> 'All available',
-	'ALL_RESULTS'			=> 'All results',
-
-	'DISPLAY_RESULTS'		=> 'Display results as',
-
+	'ALL_AVAILABLE'	=> 'Visus įmanomus',
+	'ALL_RESULTS'	=> 'Visi rezultatai',
+	
+	'DISPLAY_RESULTS'	=> 'Rodyti rezultatus kaip',
+	
 	'FOUND_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found %d match',
-		2	=> 'Search found %d matches',
+		1	=> 'Paieška rado %d atitikmenį(ų)',
+		2	=> 'Paieška rado %d atitikmenis(ų)',
 	),
 	'FOUND_MORE_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found more than %d match',
-		2	=> 'Search found more than %d matches',
+		1	=> 'Paieška rašo daugiau nei %d atitikmenį(ų)',
+		2	=> 'Paieška rašo daugiau nei %d atitikmenis(ų)',
 	),
-
-	'GLOBAL'				=> 'Global announcement',
-
-	'IGNORED_TERMS'			=> 'ignored',
-	'IGNORED_TERMS_EXPLAIN'	=> 'The following words in your search query were ignored because they are too common words: <strong>%s</strong>.',
-
-	'JUMP_TO_POST'			=> 'Jump to post',
-
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'The board requires you to be registered and logged in to view your own posts.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'The board requires you to be registered and logged in to view your unread posts.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'The board requires you to be registered and logged in to view new posts since your last visit.',
-
+	
+	'GLOBAL'	=> 'Labai svarbios temos',
+	
+	'IGNORED_TERMS'	=> 'Nepanaudoti žodžiai',
+	'IGNORED_TERMS_EXPLAIN'	=> 'Šie žodžiai nebuvo naudojami paieškos užklausoje, nes yra per dažnai naudojami: <strong>%s</strong>.',
+	
+	'JUMP_TO_POST'	=> 'Rodyti pranešimą',
+	
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Jeigu norite ieškoti savo pranešimų, turite užsiregistruoti ir prisijungti.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'	=> 'Jeigu norite ieškoti neperskaitytų pranešimų, turite užsiregistruoti ir prisijungti.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Jeigu norite ieškoti naujų pranešimų nuo paskutinio jūsų prisijungimo, turite užsiregistruoti ir prisijungti.',
+	
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'You specified too many words to search for. Please do not enter more than %1$d word.',
-		2	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
+		1	=> 'Paieškoje įvedėte per daug žodžių. Įrašykite ne daugiau nei %1$d žodį.',
+		2	=> 'Paieškoje įvedėte per daug žodžių. Įrašykite ne daugiau nei %1$d žodžių.',
 	),
-
-	'NO_KEYWORDS'			=> 'You must specify at least one word to search for. Each word must consist of at least %s and must not contain more than %s excluding wildcards.',
-	'NO_RECENT_SEARCHES'	=> 'No searches have been carried out recently.',
-	'NO_SEARCH'				=> 'Sorry but you are not permitted to use the search system.',
-	'NO_SEARCH_RESULTS'		=> 'No suitable matches were found.',
-	'NO_SEARCH_LOAD'		=> 'Sorry but you cannot use search at this time. The server has high load. Please try again later.',
+	
+	'NO_KEYWORDS'	=> 'Jūs turite įrašyti bent vieną žodį. Kiekvienas žodis turi būti bent iš %d simbolių ir ne ilgesnis nei %d simboliai neskaitant specialių paieškos ženklų.',
+	'NO_RECENT_SEARCHES'	=> 'Paskutiniu metu nevykdyta jokia paieška.',
+	'NO_SEARCH'	=> 'Atsiprašome, tačiau jūs neturite teisės naudotis paieškos sistema.',
+	'NO_SEARCH_RESULTS'	=> 'Nerastas nei vienas atitikmuo.',
+	'NO_SEARCH_LOAD'		=> 'Atsiprašome, tačiau jūs negalite naudotis paieškos sistema šiuo metu. Pabandykite po kelių minučių.',	
 	'NO_SEARCH_TIME'		=> array(
-		1	=> 'Sorry but you cannot use search at this time. Please try again in %d second.',
-		2	=> 'Sorry but you cannot use search at this time. Please try again in %d seconds.',
-	),
-	'NO_SEARCH_UNREADS'		=> 'Sorry but searching for unread posts has been disabled on this board.',
-	'WORD_IN_NO_POST'		=> 'No posts were found because the word <strong>%s</strong> is not contained in any post.',
-	'WORDS_IN_NO_POST'		=> 'No posts were found because the words <strong>%s</strong> are not contained in any post.',
-
-	'POST_CHARACTERS'		=> 'characters of posts',
-	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.',
-
-	'RECENT_SEARCHES'		=> 'Recent searches',
-	'RESULT_DAYS'			=> 'Limit results to previous',
-	'RESULT_SORT'			=> 'Sort results by',
-	'RETURN_FIRST'			=> 'Return first',
-	'GO_TO_SEARCH_ADV'	=> 'Go to advanced search',
-
-	'SEARCHED_FOR'				=> 'Search term used',
-	'SEARCHED_TOPIC'			=> 'Searched topic',
-	'SEARCHED_QUERY'			=> 'Searched query',
-	'SEARCH_ALL_TERMS'			=> 'Search for all terms or use query as entered',
-	'SEARCH_ANY_TERMS'			=> 'Search for any terms',
-	'SEARCH_AUTHOR'				=> 'Search for author',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * as a wildcard for partial matches.',
-	'SEARCH_FIRST_POST'			=> 'First post of topics only',
-	'SEARCH_FORUMS'				=> 'Search in forums',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Select the forum or forums you wish to search in. Subforums are searched automatically if you do not disable “search subforums“ below.',
-	'SEARCH_IN_RESULTS'			=> 'Search these results',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches.',
-	'SEARCH_MSG_ONLY'			=> 'Message text only',
-	'SEARCH_OPTIONS'			=> 'Search options',
-	'SEARCH_QUERY'				=> 'Search query',
-	'SEARCH_SUBFORUMS'			=> 'Search subforums',
-	'SEARCH_TITLE_MSG'			=> 'Post subjects and message text',
-	'SEARCH_TITLE_ONLY'			=> 'Topic titles only',
-	'SEARCH_WITHIN'				=> 'Search within',
-	'SORT_ASCENDING'			=> 'Ascending',
-	'SORT_AUTHOR'				=> 'Author',
-	'SORT_DESCENDING'			=> 'Descending',
-	'SORT_FORUM'				=> 'Forum',
-	'SORT_POST_SUBJECT'			=> 'Post subject',
-	'SORT_TIME'					=> 'Post time',
-	'SPHINX_SEARCH_FAILED'		=> 'Search failed: %s',
-	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, search could not be performed. More information about this failure has been logged in the error log.',
+		1	=> 'Atsiprašome, tačiau jūs negalite naudotis paieškos sistema šiuo metu. Pabandykite po %d sekundės.',
+		2	=> 'Atsiprašome, tačiau jūs negalite naudotis paieškos sistema šiuo metu. Pabandykite po %d sekundžių.',
+	),	
+	'NO_SEARCH_UNREADS'	=> 'Atsiprašome, tačiau šioje lentoje neperskaitytų pranešimų paieška yra išjungta.',
+	'WORD_IN_NO_POST'	=> 'Pranešimų nėra, kadangi žodžio <strong>%s</strong> nėra nei viename pranešime.',
+	'WORDS_IN_NO_POST'	=> 'Pranešimų nėra, kadangi žodžių <strong>%s</strong> nėra nei viename pranešime.',
+	
+	'POST_CHARACTERS'	=> 'pranešimo simbolių',
+	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.',	
+	
+	'RECENT_SEARCHES'	=> 'Paskutinės paieškos',
+	'RESULT_DAYS'	=> 'Rodyti rezultatus iš paskutinių',
+	'RESULT_SORT'	=> 'Rūšiuoti rezultatus pagal',
+	'RETURN_FIRST'	=> 'Rodyti pirmus',
+	'GO_TO_SEARCH_ADV'	=> 'Eiti į išplėstinę paiešką',
+	
+	'SEARCHED_FOR'	=> 'Ieškota',
+	'SEARCHED_TOPIC'	=> 'Ieškota temoje',
+	'SEARCHED_QUERY'	=> 'Paieškos užklausa',
+	'SEARCH_ALL_TERMS'	=> 'Ieškoti visų terminų arba naudoti užklausą',
+	'SEARCH_ANY_TERMS'	=> 'Ieškoti bet kurio termino',
+	'SEARCH_AUTHOR'	=> 'Autoriaus paieška',
+	'SEARCH_AUTHOR_EXPLAIN'	=> 'Dalinėms reikšmėms naudokite *.',
+	'SEARCH_FIRST_POST'	=> 'Pirmuose temos pranešimuose',
+	'SEARCH_FORUMS'	=> 'Ieškoti forumuose',
+	'SEARCH_FORUMS_EXPLAIN'	=> 'Pasirinkite forumą arba forumus kuriuose norite atlikti paiešką. Jeigu neišjungsite  “ieškoti subforumuose“ parametro apačioje, automatiškai bus ieškoma ir visuose subforumuose.',
+	'SEARCH_IN_RESULTS'	=> 'Ieškoti tarp rezultatų',
+	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Simbolis <strong>+</strong> parašytas priešais žodį reiškia kad tokio žodžio reikia ieškoti. Simbolis <strong>-</strong> parašytas priešais žodį reiškia kad tokio žodžio ieškoti nereikia. Jeigu ieškote tik vieno iš kelių žodžių, atskirkite juos simboliu <strong>|</strong>. Dalinėms reikšmėms naudokite *.',
+	'SEARCH_MSG_ONLY'	=> 'Pranešimo tekste',
+	'SEARCH_OPTIONS'	=> 'Paieškos nustatymai',
+	'SEARCH_QUERY'	=> 'Paieškos užklausa',
+	'SEARCH_SUBFORUMS'	=> 'Ieškoti subforumuose',
+	'SEARCH_TITLE_MSG'	=> 'Pranešimo pavadinime ir tekste',
+	'SEARCH_TITLE_ONLY'	=> 'Tik temų pavadinimuose',
+	'SEARCH_WITHIN'	=> 'Ieškoti',
+	'SORT_ASCENDING'	=> 'Mažėjančia tvarka',
+	'SORT_AUTHOR'	=> 'Autorių',
+	'SORT_DESCENDING'	=> 'Didėjančia tvarka',
+	'SORT_FORUM'	=> 'Forumą',
+	'SORT_POST_SUBJECT'	=> 'Pranešimo pavadinimą',
+	'SORT_TIME'	=> 'Pranešimo laiką',
+	'SPHINX_SEARCH_FAILED'		=> 'Paieška nepavyko: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Atsiprašome, paieška negalima. Daugiau informacijos apie šią klaidą ieškokite klaidų loge.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
-		1	=> 'You must specify at least %d character of the authors name.',
-		2	=> 'You must specify at least %d characters of the authors name.',
+		1	=> 'Jūs turite įrašyti bent %d autoriaus vardo simbolį(ių).',
+		2	=> 'Jūs turite įrašyti bent %d autoriaus vardo simbolius(ių).',
 	),
 ));
