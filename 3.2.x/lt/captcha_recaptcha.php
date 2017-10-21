@@ -41,13 +41,12 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_NOT_AVAILABLE'	=> 'Norėdami naudoti reCaptcha priedą turite užsiregistruoti <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> puslapyje.',
 	'CAPTCHA_RECAPTCHA'	=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'	=> 'Vaizdinio patvirtinimo kodas, kurį įrašėte, yra neteisingas',
+	'RECAPTCHA_NOSCRIPT'			=> 'Įjunkite JavaScript savo naršyklėje, kad pamatytumėte.',	
 	
 	'RECAPTCHA_PUBLIC'	=> 'Viešas reCaptcha raktas',
 	'RECAPTCHA_PUBLIC_EXPLAIN'	=> 'Jūsų viešas reCaptcha raktas. Raktus galite gauti iš <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'	=> 'Privatus reCaptcha raktas',
 	'RECAPTCHA_PRIVATE_EXPLAIN'	=> 'Jūsų privatus reCaptcha raktas. Raktus galite gauti iš <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	
-	'RECAPTCHA_EXPLAIN'	=> 'Norėdami apsisaugoti nuo automatinių formų užpildymo mes reikalaujame, kad į teksto lauką įrašytumėte du rodomus žodžius.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'There was a problem connecting to the RECAPTCHA service: could not open socket. Try again later.',
-
+	'RECAPTCHA_EXPLAIN'	=> 'Norėdami apsisaugoti nuo automatinių formų užpildymo mes reikalaujame, kad patvirtintumėte, jog esate žmogus.',	
 ));
