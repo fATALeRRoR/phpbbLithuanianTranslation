@@ -53,7 +53,8 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'	=> 'Yra naujų pranešimų [ Užrakinta ]',
 	'NO_NEW_POSTS_HOT'	=> 'Naujų pranešimų nėra [ Populiari ]',
 	'NO_NEW_POSTS_LOCKED'	=> 'Naujų pranešimų nėra [ Užrakinta ]',
-	'NO_READ_ACCESS'	=> 'Jūs neturite teisės skaityti temas šiame forume.',
+	'NO_READ_ACCESS'	=> 'Jūs neturite teisės matyti ar skaityti temas šiame forume.',
+	'NO_FORUMS_IN_CATEGORY'	=> 'Ši kategorija neturi jokių forumų.',
 	'NO_UNREAD_POSTS_HOT'	=> 'Neperskaitytų pranešimų nėra [ Populiari ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Neperskaitytų pranešimų nėra [ Užrakinta ]',
 	

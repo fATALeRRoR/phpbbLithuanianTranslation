@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'lt-lt',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
@@ -556,6 +556,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Nustatymai',
 
+	'PAGE_NOT_FOUND'		=> 'Puslapis nerastas.',
 	'PAGE_OF'				=> 'Puslapis <strong>%1$d</strong> iš <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'Puslapis %s',
 	'PASSWORD'				=> 'Slaptažodis',

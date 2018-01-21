@@ -8,5 +8,5 @@ root\language\lt
 
 See more on https://www.phpbb.com/languages/apply.php
 
-All files are translated to lithuanian, except:
-ACP (Administration Control Panel) is in English, because it is better for board administration. All english errors can be easily found on Google.
+All files are translated to Lithuanian, except:
+ACP (Administration Control Panel) is in English, because it is better for board administration. All English errors can be easily found on Google.
