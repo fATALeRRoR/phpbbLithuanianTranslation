@@ -88,6 +88,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'	=> 'Naujų neskaitytų pranešimų šioje temoje nėra.',
 	'NO_VOTE_OPTION'	=> 'Jūs turite pasirinkti bent vieną atsakymo variantą.',
 	'NO_VOTES'	=> 'Balsų nėra',
+	'NO_AUTH_PRINT_TOPIC'	=> 'Jums neleidžiama spausdinti temas.',
 	
 	'POLL_ENDED_AT'	=> 'Apklausa baigėsi %s',
 	'POLL_RUN_TILL'	=> 'Apklausa baigsis %s',

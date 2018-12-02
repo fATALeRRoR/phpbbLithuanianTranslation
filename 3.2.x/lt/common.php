@@ -62,7 +62,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'	=> 'Jūsų vartotojo vardas jau aktyvuotas.',
 	'ACCOUNT_DEACTIVATED'	=> 'Jūsų vartotojo vardas buvo išjungtas ir tik administratorius gali jį įjungti.',
-	'ACCOUNT_NOT_ACTIVATED'	=> 'Jūsų vartotojo vardas dar neaktyvuotas.',
 	'ACP'	=> 'Administratoriaus valdymo pultas',
 	'ACP_SHORT'						=> 'AVP',
 	'ACTIVE'	=> 'aktyvus',
