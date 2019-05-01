@@ -271,6 +271,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'	=> 'Labai svarbūs pranešimai',
 	'INVALID_USER_BIRTHDAY'	=> 'Įrašyta neteisinga gimtadienio data.',
 	'INVALID_CHARS_USERNAME'	=> 'Vartotojo varde yra draudžiamų simbolių.',
+	'INVALID_EMOJIS_USERNAME'	=> 'Vartotojo varde yra draudžiamų simbolių (Emoji).',	
 	'INVALID_CHARS_NEW_PASSWORD'	=> 'Slaptažodyje nėra visų būtinų simbolių.',
 	'ITEMS_REQUIRED'	=> 'Punktai pažymėti * yra privalomi.',
 	
@@ -301,6 +302,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'	=> 'Žinutė pakeista sėkmingai.',
 	'MESSAGE_HISTORY'	=> 'Žinutės istorija',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Žinutę ištrynė jos autorius.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Raportuota žinutė',	
 	'MESSAGE_SENT_ON'	=> '',
 	'MESSAGE_STORED'	=> 'Žinutė išsiųsta sėkmingai.',
 	'MESSAGE_TO'	=> 'Kam',

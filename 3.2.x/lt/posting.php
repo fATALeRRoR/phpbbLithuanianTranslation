@@ -145,6 +145,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'	=> 'Čia galite pasirinkti juodraštį, kurį galėsite tęsti. Dabartinis pranešimas bus atšauktas, visas dabartinio pranešimo turinys bus ištrintas. Juodraščius galite peržiūrėti, redaguoti ir trinti per vartotojo valdymo pultą.',
 	'LOGIN_EXPLAIN_BUMP'	=> 'Norėdami priminti apie temas šiame forume, turite prisijungti.',
 	'LOGIN_EXPLAIN_DELETE'	=> 'Norėdami trinti pranešimus šiame forume, turite prisijungti.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Norėdami trinti pranešimus šiame forume, turite prisijungti.',	
 	'LOGIN_EXPLAIN_POST'	=> 'Norėdami rašyti pranešimus į šį forumą, turite prisijungti.',
 	'LOGIN_EXPLAIN_QUOTE'	=> 'Norėdami cituoti pranešimus šiame forume, turite prisijungti.',
 	'LOGIN_EXPLAIN_REPLY'	=> 'Norėdami rašyti atsakymus temose šiame forume, turite prisijungti.',

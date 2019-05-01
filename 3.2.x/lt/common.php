@@ -218,6 +218,10 @@ $lang = array_merge($lang, array(
 	'EMAIL_INVALID_EMAIL'	=> 'El. pašto adresas, kurį įrašėte, yra neteisingas.',
 	'EMAIL_SMTP_ERROR_RESPONSE'	=> 'Siunčiant el. paštą <strong>eilutėje %1$s</strong> iškilo problemų. Priežastis: %2$s.',
 	'EMPTY_SUBJECT'	=> 'Kurdami naują temą turite įrašyti jos pavadinimą.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Tema laukia patvirtinimo',
+		2	=> 'Temos laukia patvirtinimo',
+	),	
 	'EMPTY_MESSAGE_SUBJECT'	=> 'Rašydami naują žinutę turite nurodyti jos temą.',
 	'ENABLED'	=> 'Įjungta',
 	'ENCLOSURE'	=> 'Priedas',
