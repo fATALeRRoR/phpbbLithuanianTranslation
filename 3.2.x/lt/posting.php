@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'	=> 'Apklausos kūrimas',
 	'ADD_POLL_EXPLAIN'	=> 'Jeigu nenorite, kad jūsų temą turėtų apklausą, palikite šiuos laikus tuščius.',
 	'ALREADY_DELETED'	=> 'Atsiprašome, tačiau šis pranešimas jau ištrintas.',
+	'ATTACH_COMMENT_NO_EMOJIS'	=> 'Prisegtuko komentaras turi neleistinus simbolius (Emoji).',	
 	'ATTACH_DISK_FULL'	=> 'Nepakanka laisvos vietos diske.',
 	'ATTACH_QUOTA_REACHED'	=> 'Atsiprašome, tačiau buvo pasiekta diskusijų lentos kvota.',
 	'ATTACH_SIG'	=> 'Pridėti parašą (parašus galite keisti per vartotojo valdymo pultą)',

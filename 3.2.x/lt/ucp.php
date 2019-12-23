@@ -88,6 +88,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'	=> 'Failų, kuriuos prikabinote prie savo parašytų pranešimų, sąrašas.',
 	'ATTACHMENTS_DELETED'	=> 'Prikabinti failai sėkmingai ištrinti.',
 	'ATTACHMENT_DELETED'	=> 'Prikabintas failas sėkmingai ištrintas.',
+	'ATTACHMENT_LOCKED'				=> 'Prikabintas failas užrakintas ir negali būti ištrintas.',	
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'The selected "Remember Me" login keys were successfully deleted.',	
 	'AVATAR_CATEGORY'	=> 'Kategorija',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
