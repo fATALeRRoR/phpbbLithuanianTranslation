@@ -1,0 +1,12 @@
+Sveiki {TO_USERNAME},
+
+Ši žinutė jums siunčiama nuo "{SITENAME}" diskusijų dalyvio {FROM_USERNAME}. Jeigu žinutė yra internetinė šiukšlė (spam), arba įžeidžiančio ar kitokio nemalonaus turinio, prašome susisiekti su diskusijų administratoriumi šiuo adresu:
+
+{BOARD_CONTACT}
+
+Į laišką įtraukite ir šią žinutę. Taip pat atminkite, kad šios žinutės siuntėjo adresas yra diskusijų lentos IM adresas.
+
+Jums siunčiamos žinutės tekstas
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

@@ -1,0 +1,8 @@
+Subject: Raportas "{POST_SUBJECT}" ištrintas
+
+Sveiki {USERNAME},
+
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijų moderatorius arba administratorius ištrynė raportą "{POST_SUBJECT}", kurį užpildėte, temoje "{TOPIC_TITLE}".
+
+
+{EMAIL_SIG}

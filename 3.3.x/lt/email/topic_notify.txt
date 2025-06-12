@@ -1,0 +1,20 @@
+Subject: Naujas atsakymas temoje "{TOPIC_TITLE}"
+
+Sveiki {USERNAME},
+
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijose esate užsiprenumeravę temą "{TOPIC_TITLE}". Po jūsų paskutinio apsilankymo, šioje temoje buvo parašytas naujas pranešimas<!-- IF AUTHOR_NAME !== '' -->, kurio autorius {AUTHOR_NAME}<!-- ENDIF -->. Norėdami peržiūrėti visus naujus pranešimus, paspauskite ant žemiau esančios nuorodos. Kol jų neperžiūrėsite, daugiau laiškų apie naujus pranešimus šioje temoje negausite.
+
+Jeigu norite peržiūrėti naujus pranešimus, paspauskite ant nuorodos žemiau:
+{U_NEWEST_POST}
+
+Jeigu norite peržiūrėti visą temą, paspauskite ant šios nuorodos:
+{U_TOPIC}
+
+Jeigu norite peržiūrėti visą forumą, paspauskite ant šios nuorodos:
+{U_FORUM}
+
+Jeigu daugiau nebenorite prenumeruoti šios temos, paspauskite ant nuorodos "Atsisakyti temos" minėtoje temoje arba ant šios nuorodos:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

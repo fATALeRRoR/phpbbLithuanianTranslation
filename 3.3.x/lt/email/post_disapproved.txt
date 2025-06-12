@@ -1,0 +1,12 @@
+Subject: Pranešimas "{POST_SUBJECT}" atmestas
+
+Sveiki {USERNAME},
+
+Jūs gavote šį laišką, nes moderatorius arba administratorius "{SITENAME}" diskusijose atmetė jūsų pranešimą "{POST_SUBJECT}".
+
+Pranešimo atmetimo priežastis:
+
+{REASON}
+
+
+{EMAIL_SIG}

@@ -1,0 +1,12 @@
+Subject: Tema "{TOPIC_TITLE}" atmesta
+
+Sveiki {USERNAME},
+
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijų moderatorius arba administratorius atmetė jūsų temą "{TOPIC_TITLE}".
+
+Temos atmetimo priežastis:
+
+{REASON}
+
+
+{EMAIL_SIG}

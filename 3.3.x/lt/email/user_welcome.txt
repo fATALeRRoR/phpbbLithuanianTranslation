@@ -1,0 +1,17 @@
+Subject: Sveiki atvykę į "{SITENAME}" diskusijas
+
+{WELCOME_MSG}
+
+Išsaugokite šį laišką. Jūsų prisijungimo informacija:
+
+----------------------------
+Vartotojo vardas: {USERNAME}
+
+Diskusijų adresas: {U_BOARD}
+----------------------------
+
+Jūsų slaptažodis saugiai saugomas mūsų duomenų bazėje ir mes negalime jums jo atsiųsti. Jeigu jį pamiršite, visada galėsite paprašyti naujo slaptažodžio, pasinaudoję el. paštu, kuris susietas su šiuo vartotojo vardu.
+
+Dėkojame, kad užsiregistravote.
+
+{EMAIL_SIG}

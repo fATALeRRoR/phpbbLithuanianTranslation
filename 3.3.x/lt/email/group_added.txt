@@ -1,0 +1,10 @@
+Subject: Jūs buvote priimtas į vartotojų grupę
+
+Sveikiname,
+
+Grupės lyderis arba "{SITENAME}" diskusijų administratorius priėmė jus į grupę "{GROUP_NAME}".
+
+Informaciją apie savo grupes galite matyti paspaudę ant šios nuorodos:
+{U_GROUP}
+
+{EMAIL_SIG}

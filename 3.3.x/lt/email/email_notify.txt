@@ -1,0 +1,17 @@
+Subject: laiškas nuo "{SITENAME}" diskusijų dalyvio
+
+Sveiki {TO_USERNAME},
+
+Šis laiškas jums siunčiamas nuo "{SITENAME}" diskusijų dalyvio {FROM_USERNAME}, kuris mano jog jus sudomins ši tema:
+
+{TOPIC_NAME}
+
+Ją galite perskaityti paspaudę ant nuorodos žemiau:
+
+{U_TOPIC}
+
+Taip pat dar žemiau galite perskaityti vartotojo {FROM_USERNAME} žinutę skirtą jums. Atsiminkite, kad šis laiškas nebuvo patikrintas diskusijų administratoriaus. Jeigu norite pasiskųsti apie tai, kad gavote šį laišką, susisiekite su juo adresu {BOARD_CONTACT}. Į savo laišką įtraukite ir šio laiško antraštes.
+
+----------
+
+{MESSAGE}

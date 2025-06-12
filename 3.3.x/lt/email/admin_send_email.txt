@@ -1,0 +1,13 @@
+Jums rašo "{SITENAME}" diskusijų administratorius. Jeigu manote, kad šis laiškas yra internetinė šiukšlė, ar laiško tekstas kokiu nors būdu jus įžeidžia, susisiekite su diskusijų lentos valdytoju adresu:
+
+{CONTACT_EMAIL}
+
+Nepamirškite pridėti viso šio laiško teksto (įskaitant laiško antraštes).
+
+Laiško tekstas:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+
+{EMAIL_SIG}

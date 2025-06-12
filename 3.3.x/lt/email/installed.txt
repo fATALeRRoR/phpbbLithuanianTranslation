@@ -1,0 +1,19 @@
+Subject: phpBB sėkmingai įdiegta
+
+Sveikiname,
+
+Jūsų sėkmingai savo serveryje įdiegėte phpBB.
+
+Išsaugokite šį laišką ir jame esančią informaciją. Jūsų slaptažodis saugiai saugomas mūsų duomenų bazėje ir mes negalime jums jo atsiųsti. Jeigu jį pamiršite, visada galėsite paprašyti naujo slaptažodžio, pasinaudoję el. paštu, kuris susietas su šiuo vartotojo vardu.
+
+----------------------------
+Vartotojo vardas: {USERNAME}
+
+Diskusijų URL: {U_BOARD}
+----------------------------
+
+Daugiau naudingos informacijos apie phpBB galite rasti jūsų serveryje įdiegtos phpBB programinės įrangos dokumentacijos kataloge arba phpBB.com palaikymo puslapyje - https://www.phpbb.com/support/
+
+Dėl saugumo rekomenduojame visada įdiegti naujausią phpBB versiją. Naujienas apie visus naujausius programinės įrangos leidimus galite gauti prisijungę prie el. pašto konferencijos, kurią rasite nuorodoje viršuje.
+
+{EMAIL_SIG}

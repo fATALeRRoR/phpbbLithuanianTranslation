@@ -1,0 +1,10 @@
+Subject: Vartotojo prašymas prisijungti prie jūsų grupės
+
+Brangus {USERNAME},
+
+Prie jūsų moderuojamos grupės "{GROUP_NAME}" "{SITENAME}" diskusijose nori prisijungti vartotojas "{REQUEST_USERNAME}".
+Norėdami patvirtinti arba atmesti jo kandidatūrą paspauskite ant nuorodos žemiau:
+
+{U_PENDING}
+
+{EMAIL_SIG}

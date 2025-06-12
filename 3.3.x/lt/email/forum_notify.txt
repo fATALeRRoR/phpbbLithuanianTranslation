@@ -1,0 +1,19 @@
+Subject: Naujas pranešimas forume "{FORUM_NAME}"
+
+Sveiki {USERNAME},
+
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijose esate užsiprenumeravę forumą "{FORUM_NAME}". Po jūsų paskutinio apsilankymo, temoje "{TOPIC_TITLE}" buvo parašytas naujas pranešimas<!-- IF AUTHOR_NAME !== '' -->, kurio autorius {AUTHOR_NAME}<!-- ENDIF -->. Norėdami peržiūrėti paskutinį neperskaitytą šios temos pranešimą, paspauskite ant žemiau esančios nuorodos. Kol joje neapsilankysite, daugiau laiškų apie naujus pranešimus šioje temoje negausite.
+
+{U_NEWEST_POST}
+
+Jeigu norite peržiūrėti visą temą, paspauskite ant šios nuorodos:
+{U_TOPIC}
+
+Jeigu norite peržiūrėti visą forumą, paspauskite ant šios nuorodos:
+{U_FORUM}
+
+Jeigu daugiau nebenorite prenumeruoti šio forumo, paspauskite ant nuorodos "Atsisakyti forumo" minėtame forume arba ant šios nuorodos:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}
