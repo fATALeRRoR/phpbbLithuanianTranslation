@@ -79,6 +79,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Can save drafts',
 	'ACL_U_CHGCENSORS'	=> 'Can disable word censors',
 	'ACL_U_SIG'			=> 'Can use signature',
+	'ACL_U_EMOJI'		=> 'Can use emoji and rich text characters in topic title',
 
 	'ACL_U_SENDPM'		=> 'Can send private messages',
 	'ACL_U_MASSPM'		=> 'Can send private messages to multiple users',
@@ -158,9 +159,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'Can merge topics',
 
 	'ACL_M_INFO'		=> 'Can view post details',
-	'ACL_M_WARN'		=> 'Can issue warnings<br /><em>This setting is only assigned globally. It is not forum based.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Can close and delete reports of private messages<br /><em>This setting is only assigned globally. It is not forum based.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'			=> 'Can manage bans<br /><em>This setting is only assigned globally. It is not forum based.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'		=> 'Can issue warnings',
+	'ACL_M_PM_REPORT'	=> 'Can close and delete reports of private messages',
+	'ACL_M_BAN'			=> 'Can manage bans',
 ));
 
 // Admin Permissions

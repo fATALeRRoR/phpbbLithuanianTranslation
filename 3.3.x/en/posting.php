@@ -151,6 +151,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'You need to login in order to quote posts within this forum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'You need to login in order to reply to topics within this forum.',
 
+	'MAX_ATTACHMENT_FILESIZE'	=> 'Maximum filesize per attachment: %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'You may only use fonts up to size %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Your flash files may only be up to %d pixel high.',
@@ -266,7 +267,6 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'Topic has been bumped successfully.',
 
 	'UNAUTHORISED_BBCODE'		=> 'You cannot use certain BBCodes: %s.',
-	'UNGLOBALISE_EXPLAIN'		=> 'To switch this topic back from being global to a normal topic, you need to select the forum you wish this topic to be displayed.',
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Your message contains the following unsupported characters:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Your subject contains the following unsupported characters:<br />%s',
 	'UPDATE_COMMENT'			=> 'Update comment',

@@ -49,8 +49,6 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> 'Last bumped by %1$s on %2$s.',
 	'BUMP_TOPIC'			=> 'Bump topic',
 
-	'CODE'					=> 'Code',
-
 	'DELETE_TOPIC'			=> 'Delete topic',
 	'DELETED_INFORMATION'	=> 'Deleted by %1$s on %2$s',
 	'DISAPPROVE'					=> 'Disapprove',
@@ -98,7 +96,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Quick-mod tools',
 	'QUICKREPLY'			=> 'Quick Reply',
-	'QUOTE'					=> 'Quote',
 
 	'REPLY_TO_TOPIC'		=> 'Reply to topic',
 	'RESTORE'				=> 'Restore',
@@ -115,6 +112,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Post details',
 	'VIEW_NEXT_TOPIC'		=> 'Next topic',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Previous topic',
+	'VIEW_QUOTED_POST'		=> 'View quoted post',
 	'VIEW_RESULTS'			=> 'View results',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d post',

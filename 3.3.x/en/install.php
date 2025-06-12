@@ -45,11 +45,11 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Introduction',
-	'INTRODUCTION_BODY'		=> 'Welcome to phpBB3!<br /><br />phpBB® is the most widely used open source bulletin board solution in the world. phpBB3 is the latest installment in a package line started in 2000. Like its predecessors, phpBB3 is feature-rich, user-friendly, and fully supported by the phpBB Team. phpBB3 greatly improves on what made phpBB2 popular, and adds commonly requested features that were not present in previous versions. We hope it exceeds your expectations.<br /><br />This installation system will guide you through installing phpBB3, updating to the latest version of phpBB3 from past releases, as well as converting to phpBB3 from a different discussion board system (including phpBB2). For more information, we encourage you to read <a href="../docs/INSTALL.html">the installation guide</a>.<br /><br />To read the phpBB3 license or learn about obtaining support and our stance on it, please select the respective options from the side menu. To continue, please select the appropriate tab above.',
+	'INTRODUCTION_BODY'		=> 'Welcome to phpBB3!<br /><br />phpBB® is the most widely used open source bulletin board solution in the world. phpBB3 is the latest installment in a package line started in 2000. Like its predecessors, phpBB3 is feature-rich, user-friendly, and fully supported by the phpBB Team. phpBB3 greatly improves on what made phpBB2 popular, and adds commonly requested features that were not present in previous versions. We hope it exceeds your expectations.<br /><br />This installation system will guide you through installing phpBB3, updating to the latest version of phpBB3 from past releases, as well as converting to phpBB3 from a different discussion board system (including phpBB2). For more information, we encourage you to read <a href="%1$s">the installation guide</a>.<br /><br />To read the phpBB3 license or learn about obtaining support and our stance on it, please select the respective options from the side menu. To continue, please select the appropriate tab above.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, follow us on <a href="https://www.twitter.com/phpbb/">Twitter</a> and <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
+	'SUPPORT_BODY'		=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, follow us on <a href="https://www.twitter.com/phpbb/">Twitter</a> and <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 	<p>phpBB3 supports the following databases:</p>
 	<ul>
-		<li>MySQL 3.23 or above (MySQLi supported)</li>
+		<li>MySQL 4.1.3 or above (MySQLi required)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 or above (directly or via ODBC)</li>
@@ -105,13 +105,15 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP version',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB requires PHP version 5.4.0 or higher.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB requires PHP version 7.2.0 or higher.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP getimagesize() function is required',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'In order for phpBB to function correctly, the getimagesize function needs to be available.',
 	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 support',
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB will not run if your PHP installation is not compiled with UTF-8 support in the PCRE extension.',
 	'PHP_JSON_SUPPORT'					=> 'PHP JSON support',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
+	'PHP_MBSTRING_SUPPORT'				=> 'PHP mbstring support',
+	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'In order for phpBB to function correctly, the PHP mbstring extension needs to be available.',
 	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM support',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP XML/DOM extension needs to be available.',
 	'PHP_SUPPORTED_DB'					=> 'Supported databases',
@@ -186,7 +188,6 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -220,7 +221,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_INCOMPLETE_MORE'		=> 'Please read the information below in order to fix this error.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
 
-		<p>We noticed that the last update of your phpBB installation hasn’t been completed. Visit the <a href="%1$s" title="%1$s">database updater</a>, ensure <em>Update database only</em> is selected and click on <strong>Submit</strong>. Don\'t forget to delete the "install"-directory after you have updated the database sucessfully.</p>',
+		<p>We noticed that the last update of your phpBB installation hasn’t been completed. Visit the <a href="%1$s" title="%1$s">database updater</a>, ensure <em>Update database only</em> is selected and click on <strong>Submit</strong>. Don\'t forget to delete the "install"-directory after you have updated the database successfully.</p>',
 
 	//
 	// Server data
@@ -238,7 +239,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'A short text to describe your forum',
 	'CONFIG_SITENAME'				=> 'yourdomain.com',
 
-	'DEFAULT_INSTALL_POST'			=> 'This is an example post in your phpBB3 installation. Everything seems to be working. You may delete this post if you like and continue to set up your board. During the installation process your first category and your first forum are assigned an appropriate set of permissions for the predefined usergroups administrators, bots, global moderators, guests, registered users and registered COPPA users. If you also choose to delete your first category and your first forum, do not forget to assign permissions for all these usergroups for all new categories and forums you create. It is recommended to rename your first category and your first forum and copy permissions from these while creating new categories and forums. Have fun!',
+	'DEFAULT_INSTALL_POST'			=> '<t>This is an example post in your phpBB3 installation. Everything seems to be working. You may delete this post if you like and continue to set up your board. During the installation process your first category and your first forum are assigned an appropriate set of permissions for the predefined usergroups administrators, bots, global moderators, guests, registered users and registered COPPA users. If you also choose to delete your first category and your first forum, do not forget to assign permissions for all these usergroups for all new categories and forums you create. It is recommended to rename your first category and your first forum and copy permissions from these while creating new categories and forums. Have fun!</t>',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Your first category',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Description of your first forum.',
@@ -346,7 +347,7 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Update phpBB installation',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Advanced Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Release announcement</h1>
@@ -357,7 +358,7 @@ $lang = array_merge($lang, array(
 
 		<h1>How to update your installation with the Full Package</h1>
 
-		<p>The recommended way of updating your installation is using the full package. If core phpBB files have been modified in your installation you may wish to use the automatic update package in order to not lose these changes. You are also able to update your installation using the other methods listed within the INSTALL.html document. The steps for updating phpBB3 using the full package are:</p>
+		<p>The recommended way of updating your installation is using the full package. If core phpBB files have been modified in your installation you may wish to use the advanced update package in order to not lose these changes. You are also able to update your installation using the other methods listed within the INSTALL.html document. The steps for updating phpBB3 using the full package are:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Backup all board files and the database.</strong></li>
@@ -371,19 +372,19 @@ $lang = array_merge($lang, array(
 			<li>Follow the steps to update the database and let that run to completion.</li>
 			<li>Via FTP or SSH delete the <code class="inline">/install</code> folder from the root of your board installation.<br><br></li>
 		</ol>
-		
+
 		<p>You now have a new up to date board containing all your users and posts. Follow up tasks:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Update your language pack</li>
 			<li>Update your style<br><br></li>
 		</ul>
 
-		<h1>How to update your installation with the Automatic Update Package</h1>
+		<h1>How to update your installation with the Advanced Update Package</h1>
 
-		<p>The automatic update package is only recommended in case core phpBB files have been modified in your installation. You are also able to update your installation using the methods listed within the INSTALL.html document. The steps for updating phpBB3 using the automatic update package are:</p>
+		<p>The advanced update package is only recommended for expert users in case core phpBB files have been modified in your installation. You are also able to update your installation using the methods listed within the INSTALL.html document. The steps for updating phpBB3 using the advanced update package are:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
-			<li>Go to the <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com downloads page</a> and download the "Automatic Update Package" archive.</li>
+			<li>Go to the <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com downloads page</a> and download the "Advanced Update Package" archive.</li>
 			<li>Unpack the archive.</li>
 			<li>Upload the complete uncompressed "install" and "vendor" folders to your phpBB root directory (where your config.php file is).<br><br></li>
 		</ol>
@@ -507,10 +508,12 @@ $lang = array_merge($lang, array(
 	'CHECK_TABLE_PREFIX'		=> 'Please check your table prefix and try again.',
 
 	// Conversion in progress
+	'CATEGORY'					=> 'Category',
 	'CONTINUE_CONVERT'			=> 'Continue conversion',
 	'CONTINUE_CONVERT_BODY'		=> 'A previous conversion attempt has been determined. You are now able to choose between starting a new conversion or continuing the conversion.',
 	'CONVERT_NEW_CONVERSION'	=> 'New conversion',
 	'CONTINUE_OLD_CONVERSION'	=> 'Continue previously started conversion',
+	'POST_ID'					=> 'Post ID',
 
 	// Start conversion
 	'SUB_INTRO'					=> 'Introduction',
@@ -565,8 +568,12 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Conversion completed',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'You have now successfully converted your board to phpBB 3.2. You can now login and <a href="../">access your board</a>. Please ensure that the settings were transferred correctly before enabling your board by deleting the install directory. Remember that help on using phpBB is available online via the <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Documentation</a> and the <a href="https://www.phpbb.com/community/viewforum.php?f=466">support forums</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'You have now successfully converted your board to phpBB 3.3. You can now login and <a href="../">access your board</a>. Please ensure that the settings were transferred correctly before enabling your board by deleting the install directory. Remember that help on using phpBB is available online via the <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Documentation</a> and the <a href="https://www.phpbb.com/community/viewforum.php?f=661">support forums</a>.',
 
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> is the clean username for:',
+	'COLLIDING_USER'					=> '» user id: <strong>%d</strong> username: <strong>%s</strong> (%d posts)',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Colliding usernames were found on your old board. In order to complete the conversion please delete or rename these users so that there is only one user on your old board for each clean username.',
+	'CONV_ERR_FATAL'					=> 'Fatal conversion error',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP upload for attachments is enabled at the old board. Please disable the FTP upload option and make sure a valid upload directory is specified, then copy all attachment files to this new web accessible directory. Once you have done this, restart the convertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'There is no configuration information available for the conversion.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Unable to get forum access information.',

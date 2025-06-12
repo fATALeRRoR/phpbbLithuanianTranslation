@@ -35,6 +35,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'APCu cache has to be purged through the Administration Control Panel.',
+
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Set this option if the configuration option changes too frequently to be efficiently cached.',
 	'CLI_CONFIG_CURRENT'				=> 'Current configuration value, use 0 and 1 to specify boolean values',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Successfully deleted config %s.',
@@ -73,12 +75,11 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparses stored text with the current text_formatter services.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Type of text to reparse. Leave blank to reparse everything.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Do not save any changes; just print what would happen',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Re-parse all BBCodes without exception. Note that any previously disabled BBCodes will be reprocessed, enabled, and fully rendered.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Lowest record ID to process',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Highest record ID to process',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Approximate number of records to process at a time',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start reparsing where the last execution stopped',
-
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Recalculates the user_email_hash column of the users table.',
 
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Sets a configuration option’s value only if the old matches the current value',
 	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Sets a configuration option’s value',
@@ -108,6 +109,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Send account activation email to the new user (not sent by default)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Delete a user account.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Username of the user to delete',
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'Delete user accounts by ID.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'User IDs of the users to delete',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Delete all posts by the user. Without this option, the user’s posts will be retained.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Re-clean usernames.',
 
@@ -130,7 +133,6 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Enabled',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Successfully repaired the tree structure of the forums and modules.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Successfully recalculated all email hashes.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Successfully updated outdated password hashes to bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Migration name, including the namespace (use forward slashes instead of backslashes to avoid problems).',
@@ -156,10 +158,14 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'No thumbnails to generate.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'No thumbnails to delete.',
 
-	'CLI_USER_ADD_SUCCESS'		=> 'Successfully added user %s.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'Are you sure you want to delete ‘%s’? [y/N]',
-	'CLI_USER_RECLEAN_START'	=> 'Re-cleaning usernames',
-	'CLI_USER_RECLEAN_DONE'		=> [
+	'CLI_USER_ADD_SUCCESS'			=> 'Successfully added user %s.',
+	'CLI_USER_DELETE_CONFIRM'		=> 'Are you sure you want to delete ‘%s’? [y/N]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Are you sure you want to delete the user IDs ‘%s’? [y/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'Successfully deleted user IDs.',
+	'CLI_USER_DELETE_ID_START'		=> 'Deleting users by ID',
+	'CLI_USER_DELETE_NONE'			=> 'No users were deleted by user ID.',
+	'CLI_USER_RECLEAN_START'		=> 'Re-cleaning usernames',
+	'CLI_USER_RECLEAN_DONE'			=> [
 		0	=> 'Re-cleaning complete. No usernames needed to be cleaned.',
 		1	=> 'Re-cleaning complete. %d username was cleaned.',
 		2	=> 'Re-cleaning complete. %d usernames were cleaned.',
