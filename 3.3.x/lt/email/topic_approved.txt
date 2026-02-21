@@ -1,0 +1,11 @@
+Subject: Tema "{TOPIC_TITLE}" patvirtinta
+
+Sveiki {USERNAME},
+
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijų moderatorius arba administratorius patvirtino jūsų temą "{TOPIC_TITLE}".
+
+Jeigu norite peržiūrėti temą, paspauskite ant šios nuorodos:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

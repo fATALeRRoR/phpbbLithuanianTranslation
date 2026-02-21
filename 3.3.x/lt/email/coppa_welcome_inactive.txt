@@ -1,0 +1,40 @@
+Subject: Sveiki atvykę į "{SITENAME}" diskusijas
+
+{WELCOME_MSG}
+
+Įjungta apsaugos nuo vaikų funkcija (COPPA). Jūsų vartotojo vardas neaktyvus.
+
+Išspausdinkite šį laišką ir duokite pasirašyti savo tėvams ar globėjams. Tada išsiųskite ją faksu:
+
+{FAX_INFO}
+
+ARBA adresu:
+
+{MAIL_INFO}
+
+------------------------------ KIRPTI ČIA ------------------------------
+Leidimas dalyvauti "{SITENAME}" diskusijose - {U_BOARD}
+
+Vartotojo vardas: {USERNAME}
+El. pašto adresas: {EMAIL_ADDRESS}
+
+SUSIPAŽINAU SU INFORMACIJA, KURIĄ MAN PATEIKĖ MANO VAIKAS IR LEIDŽIU "{SITENAME}" PUSLAPIUI SAUGOTI ŠIĄ INFORMACIJĄ. SUPRANTU, KAD ŠIUOS DUOMENIS GALIMA BET KADA PAKEISTI ĮVEDUS SLAPTAŽODĮ. TAIP PAT SUPRANTU, KAD ŠI INFORMACIJA BUS PAŠALINTA IŠ "{SITENAME}" PUSLAPIO KAI TIK AŠ PAPRAŠYSIU.
+
+
+Tėvai arba globėjai 
+(jūsų vardas): _____________________
+
+(parašas): __________________ 
+
+Data: _______________
+
+------------------------------ KIRPTI ČIA ------------------------------
+
+
+Kai tik administratorius gaus šią pasirašytą formą faksu arba paštu, jūsų vartotojo vardas bus aktyvuotas.
+
+Jūsų slaptažodis saugiai saugomas mūsų duomenų bazėje ir mes negalime jums jo atsiųsti. Jeigu jį pamiršite, visada galėsite paprašyti naujo slaptažodžio, pasinaudoję el. paštu, kuris susietas su šiuo vartotojo vardu.
+
+Dėkojame, kad užsiregistravote.
+
+{EMAIL_SIG}

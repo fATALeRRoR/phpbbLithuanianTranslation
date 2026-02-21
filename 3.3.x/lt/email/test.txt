@@ -1,0 +1,9 @@
+Tema: phpBB teisingai sukofigūruotas el. laiškų siuntimui
+
+Sveiki {USERNAME},
+
+Sveikiname. Jei gavote šį laišką, phpBB teisingai sukofigūruotas el. laiškų siuntimui.
+
+Jei reikia pagalbos, aplankykite phpBB pagalbos forumą - https://www.phpbb.com/community/
+
+{EMAIL_SIG}

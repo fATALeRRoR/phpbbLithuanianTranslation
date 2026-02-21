@@ -1,0 +1,14 @@
+Subject: Pranešimas "{POST_SUBJECT}" patvirtintas
+
+Sveiki {USERNAME},
+
+Jūsų gavote šį laišką, nes administratorius arba moderatorius "{SITENAME}" diskusijose patvirtinto jūsų pranešimą "{POST_SUBJECT}".
+
+Jeigu norite peržiūrėti pranešimą, paspauskite ant šios nuorodos:
+{U_VIEW_POST}
+
+Jeigu norite peržiūrėti visą temą, paspauskite ant šios nuorodos:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

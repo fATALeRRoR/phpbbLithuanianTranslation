@@ -1,0 +1,13 @@
+Subject: Nauja tema forume "{FORUM_NAME}"
+
+Sveiki {USERNAME},
+
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijose esate užsiprenumeravę forumą "{FORUM_NAME}". Po jūsų paskutinio apsilankymo, šiame forume buvo sukurta nauja tema, "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' -->, kurios autorius {AUTHOR_NAME}<!-- ENDIF -->. Norėdami peržiūrėti minėtą forumą, paspauskite ant žemiau esančios nuorodos. Kol joje neapsilankysite, daugiau laiškų apie naujas temas šiame forume negausite.
+
+{U_FORUM}
+
+Jeigu daugiau nebenorite prenumeruoti šio forumo, paspauskite ant nuorodos "Atsisakyti forumo" minėtame forume arba ant šios nuorodos:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

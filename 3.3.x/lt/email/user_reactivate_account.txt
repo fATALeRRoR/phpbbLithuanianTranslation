@@ -1,0 +1,19 @@
+Subject: Aktyvuokite savo vartotojo vardą "{SITENAME}" diskusijose
+
+Diskusijų administratorius paprašė dar kartą aktyvuoti savo vartotojo vardą.
+Norėdami tai padaryti, sekite instrukcijomis žemiau.
+
+Išsaugokite šį laišką. Jūsų prisijungimo informacija:
+
+----------------------------
+Vartotojo vardas: {USERNAME}
+----------------------------
+
+Jūsų slaptažodis saugiai saugomas mūsų duomenų bazėje ir mes negalime jums jo atsiųsti. Jeigu jį pamiršite, visada galėsite paprašyti naujo slaptažodžio, pasinaudoję el. paštu, kuris susietas su šiuo vartotojo vardu.
+
+Jūs negalėsite prisijungti, kol nepaspausite ant šios nuorodos:
+
+{U_ACTIVATE}
+
+
+{EMAIL_SIG}

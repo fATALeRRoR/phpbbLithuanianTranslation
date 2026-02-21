@@ -1,0 +1,12 @@
+Sveiki {TO_USERNAME},
+
+Šis laiškas jums siunčiamas nuo "{SITENAME}" diskusijų dalyvio {FROM_USERNAME}. Jeigu laiškas yra internetinė šiukšlė (spam), arba įžeidžiančio ar kitokio nemalonaus turinio, prašome susisiekti su diskusijų administratoriumi šiuo adresu:
+
+{BOARD_CONTACT}
+
+Į savo laišką įtraukite ir šį laišką (įskaitant visas antraštes). Taip pat atminkite, kad atsakydami į šį laišką, nusiųsite pranešimą vartotojui {FROM_USERNAME}, todėl jeigu norite susisiekti su administratoriumi, turėsite sukurti naują laišką.
+
+Jums siunčiamo laiško tekstas
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

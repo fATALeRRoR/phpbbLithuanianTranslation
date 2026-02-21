@@ -1,0 +1,7 @@
+Subject: Jūsų vartotojo vardas buvo deaktyvuotas
+
+Sveiki {USERNAME},
+
+Greičiausiai dėl pakeitimų aprašyme, jūsų vartotojo vardas "{SITENAME}" diskusijose buvo deaktyvuotas. Jį turi aktyvuoti diskusijų administratorius. Kai tik tai įvyks, gausite dar vieną laišką.
+
+{EMAIL_SIG}

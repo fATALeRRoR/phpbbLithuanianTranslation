@@ -1,0 +1,13 @@
+Subject: Asmeninės žinutės raportas "{SUBJECT}" uždarytas
+
+Sveiki {USERNAME},
+
+Raportas kurį pateikėte dėl asmeninės žinutės "{SUBJECT}", parašytos "{AUTHOR_NAME}" svetainėje "{SITENAME}", buvo peržiūrėtas moderatoriaus arba administratoriaus. Raportas vėliau buvo uždarytas. Jeigu turite papildomų klausimų, susisiekite su {CLOSER_NAME} asmenine žinute.
+
+Galite peržiūrėti jūsų raportą asmeninę žinutę paspausdami šią nuorodą:
+
+{U_VIEW_MESSAGE}
+
+Jūs paprašėte gauti pranešimą apie šį įvykį, atminkite, kad galite bet kada atsisakyti gauti pranešimus apie uždarytus asmeninių žinučių raportus, pakeisdami atitinkamus nustatymus savo aprašyme.
+
+{EMAIL_SIG}
