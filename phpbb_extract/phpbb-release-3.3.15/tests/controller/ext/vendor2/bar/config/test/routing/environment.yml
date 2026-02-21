@@ -1,3 +1,0 @@
-controller3:
-    path: /bar
-    defaults: { _controller: bar.controller:handle }

@@ -1,2 +1,0 @@
-[quote][list][*]one
-[quote][list][*]two[/list][/quote]

@@ -1,3 +1,0 @@
-services:
-    bar.controller:
-        class: bar\controller

@@ -1,1 +1,0 @@
-[url=//example.org/][img]//example.org/img.png[/img][/url]

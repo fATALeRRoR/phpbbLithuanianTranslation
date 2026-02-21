@@ -1,3 +1,0 @@
-services:
-    foo.controller:
-        class: foo\controller

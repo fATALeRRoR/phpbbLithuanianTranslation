@@ -1,1 +1,0 @@
-[list=none][*]This is my indented text[/list]
