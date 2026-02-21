@@ -54,12 +54,12 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>For further information on setting up and managing permissions on your phpBB3 board, please see the section on <a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/permissions/">Setting permissions of our Quick Start Guide</a>.</p>
+		<p>For further information on setting up and managing permissions on your phpBB3 board, please see the section on <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">Setting permissions of our Quick Start Guide</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Never',
 	'ACL_SET'				=> 'Setting permissions',
-	'ACL_SET_EXPLAIN'		=> 'Permissions are based on a simple <strong>YES</strong>/<strong>NO</strong> system. Setting an option to <strong>NEVER</strong> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <strong>NO</strong>. If values are assigned for this option elsewhere they will be used in preference, else <strong>NEVER</strong> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined.',
+	'ACL_SET_EXPLAIN'		=> 'Permissions are based on a simple <strong>YES</strong>/<strong>NO</strong> system. Setting an option to <strong>NEVER</strong> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <strong>NO</strong>. If values are assigned for this option elsewhere they will be used in preference, else <strong>NEVER</strong> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined. Please note that setting administrative permissions for founder accounts does not have any effect as admin permissions are always set to <strong>YES</strong> for founders.',
 	'ACL_SETTING'			=> 'Setting',
 
 	'ACL_TYPE_A_'			=> 'Administrative permissions',

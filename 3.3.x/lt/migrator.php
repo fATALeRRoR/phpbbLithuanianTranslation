@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
 *
 * This file is part of the phpBB Forum Software package.
@@ -37,44 +37,44 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'The config setting "%s" unexpectedly does not exist.',
+	'CONFIG_NOT_EXIST'					=> 'Konfigūracijos parametras "%s" netikėtai neegzistuoja.',
 
-	'GROUP_NOT_EXIST'					=> 'The group "%s" unexpectedly does not exist.',
+	'GROUP_NOT_EXIST'					=> 'Grupė "%s" netikėtai neegzistuoja.',
 
-	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Apply dependencies of %s.',
-	'MIGRATION_DATA_DONE'				=> 'Installed Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installing Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_RUNNING'			=> 'Installing Data: %s.',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migration already effectively installed (skipped): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Something went wrong during the request and an exception was thrown. The changes made before the error occurred were reversed to the best of our abilities, but you should check the board for errors.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'The migration "%1$s" is not fulfillable, missing migration "%2$s".',
-	'MIGRATION_NOT_INSTALLED'			=> 'The migration "%s" is not installed.',
-	'MIGRATION_NOT_VALID'				=> '%s is not a valid migration.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Installed Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Installing Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Installing Schema: %s.',
+	'MIGRATION_APPLY_DEPENDENCIES'=> 'Taikomos %s priklausomybės.',
+	'MIGRATION_DATA_DONE'				=> 'Įdiegti duomenys: %1$s; Laikas: %2$.2f sek.',
+	'MIGRATION_DATA_IN_PROGRESS'		=> 'Diegiami duomenys: %1$s; Laikas: %2$.2f sek.',
+	'MIGRATION_DATA_RUNNING'=> 'Diegiami duomenys: %s.',
+	'MIGRATION_EFFECTIVELY_INSTALLED'=> 'Migracija jau veiksmingai įdiegta (praleista): %s',
+	'MIGRATION_EXCEPTION_ERROR'=> 'Užklausos metu kažkas nutiko ne taip ir buvo išmesta išimtis. Pakeitimai, atlikti prieš klaidą, buvo atšaukti kiek įmanoma, tačiau turėtumėte patikrinti forumą dėl klaidų.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'Migracijos "%1$s" neįmanoma įvykdyti, trūksta migracijos "%2$s".',
+	'MIGRATION_NOT_INSTALLED'			=> 'Migracija "%s" nėra įdiegta.',
+	'MIGRATION_NOT_VALID'=> '%s nėra tinkama migracija.',
+	'MIGRATION_SCHEMA_DONE'				=> 'Įdiegta schema: %1$s; Laikas: %2$.2f sek.',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Diegiama schema: %1$s; Laikas: %2$.2f sek.',
+	'MIGRATION_SCHEMA_RUNNING'=> 'Diegiama schema: %s.',
 
-	'MIGRATION_REVERT_DATA_DONE'		=> 'Reverted Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Reverting Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Reverting Data: %s.',
-	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Reverted Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Reverting Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Reverting Schema: %s.',
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Grąžinti duomenys: %1$s; Laikas: %2$.2f sek.',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Grąžinami duomenys: %1$s; Laikas: %2$.2f sek.',
+	'MIGRATION_REVERT_DATA_RUNNING'=> 'Grąžinami duomenys: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Grąžinta schema: %1$s; Laikas: %2$.2f sek.',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Grąžinama schema: %1$s; Laikas: %2$.2f sek.',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'=> 'Grąžinama schema: %s.',
 
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migration is invalid. An if statement helper is missing a condition.',
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migration is invalid. An if statement helper is missing a valid call to a migration step.',
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migration is invalid. A custom callable function could not be called.',
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migration is invalid. An unknown migration tool type was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migration is invalid. An undefined migration tool was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migration is invalid. An undefined migration tool method was encountered.',
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'=> 'Migracija yra neteisinga. Sąlygos tikrinimo pagalbinėje funkcijoje trūksta sąlygos.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'=> 'Migracija yra neteisinga. Sąlygos tikrinimo pagalbinėje funkcijoje trūksta tinkamo kviečiamo migracijos žingsnio.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'=> 'Migracija yra neteisinga. Nepavyko iškviesti pasirinktinės funkcijos.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'=> 'Migracija yra neteisinga. Rastas nežinomas migracijos įrankio tipas.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'=> 'Migracija yra neteisinga. Rastas neapibrėžtas migracijos įrankis.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'=> 'Migracija yra neteisinga. Rastas neapibrėžtas migracijos įrankio metodas.',
 
-	'MODULE_ERROR'						=> 'An error occurred while creating a module: %s',
-	'MODULE_EXISTS'						=> 'A module already exists: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Several modules with the given parent module langname already exist: %s. Try using before/after keys to clarify the module placement.',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'A required module info file is missing: %2$s',
-	'MODULE_NOT_EXIST'					=> 'A required module does not exist: %s',
+	'MODULE_ERROR'=> 'Kuriant modulį įvyko klaida: %s',
+	'MODULE_EXISTS'=> 'Modulis jau egzistuoja: %s',
+	'MODULE_EXIST_MULTIPLE'=> 'Keli moduliai su nurodytu pirminio modulio langname jau egzistuoja: %s. Bandykite naudoti before/after raktus, kad patikslintumėte modulio vietą.',
+	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Trūksta reikiamo modulio informacijos failo: %2$s',
+	'MODULE_NOT_EXIST'=> 'Reikiamas modulis neegzistuoja: %s',
 
-	'PARENT_MODULE_FIND_ERROR'			=> 'Unable to determine the parent module identifier: %s',
-	'PERMISSION_NOT_EXIST'				=> 'The permission setting "%s" unexpectedly does not exist.',
+	'PARENT_MODULE_FIND_ERROR'=> 'Nepavyko nustatyti pirminio modulio identifikatoriaus: %s',
+	'PERMISSION_NOT_EXIST'				=> 'Leidimų parametras "%s" netikėtai neegzistuoja.',
 
-	'ROLE_NOT_EXIST'					=> 'The permission role "%s" unexpectedly does not exist.',	'ROLE_ASSIGNED_NOT_EXIST'			=> 'Leidimų vaidmuo priskirtas grupei "%1$s" netikėtai neegzistuoja. Vaidmens ID: "%2$s"',));
+	'ROLE_NOT_EXIST'					=> 'Leidimų vaidmuo "%s" netikėtai neegzistuoja.',	'ROLE_ASSIGNED_NOT_EXIST'			=> 'Leidimų vaidmuo priskirtas grupei "%1$s" netikėtai neegzistuoja. Vaidmens ID: "%2$s"',));

@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'CODE'	=> 'Kodas',
 	
 	'DELETE_TOPIC'	=> 'Ištrinti temą',
-	'DELETED_INFORMATION'	=> 'Deleted by %1$s on %2$s',
+	'DELETED_INFORMATION'	=> 'Ištrynė %1$s, %2$s',
 	'DISAPPROVE'					=> 'Nepatvirtinti',	
 	'DOWNLOAD_NOTICE'	=> 'Jūs neturite teisės peržiūrėti failų, kurie yra prikabinti prie šio pranešimo.',
 	
@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'	=> 'Apklausa baigėsi %s',
 	'POLL_RUN_TILL'	=> 'Apklausa baigsis %s',
 	'POLL_VOTED_OPTION'	=> 'Jūs atidavėte balsą už šį atsakymo variantą',
-	'POST_DELETED_RESTORE'	=> 'This post has been deleted. It can be restored.',	
+	'POST_DELETED_RESTORE'	=> 'Šis pranešimas ištrintas. Jį galima atstatyti.',	
 	'PRINT_TOPIC'	=> 'Spausdinti',
 	
 	'QUICK_MOD'	=> 'Greitieji įrankiai',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	
 	'SUBMIT_VOTE'	=> 'Balsuoti',
 	
-	'TOPIC_TOOLS'			=> 'Topic tools',	
+	'TOPIC_TOOLS'			=> 'Temos įrankiai',	
 	'TOTAL_VOTES'	=> 'Viso balsų',
 	
 	'UNLOCK_TOPIC'	=> 'Atrakinti temą',

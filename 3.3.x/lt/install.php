@@ -38,178 +38,178 @@ if (empty($lang) || !is_array($lang))
 
 // Common installer pages
 $lang = array_merge($lang, array(
-	'INSTALL_PANEL'	=> 'Installation Panel',
-	'SELECT_LANG'	=> 'Select language',
+	'INSTALL_PANEL'	=> 'Diegimo pultas',
+	'SELECT_LANG'	=> 'Pasirinkti kalbą',
 
-	'STAGE_INSTALL'	=> 'Installing phpBB',
+	'STAGE_INSTALL'	=> 'phpBB diegimas',
 
 	// Introduction page
-	'INTRODUCTION_TITLE'	=> 'Introduction',
-	'INTRODUCTION_BODY'		=> 'Welcome to phpBB3!<br /><br />phpBB® is the most widely used open source bulletin board solution in the world. phpBB3 is the latest installment in a package line started in 2000. Like its predecessors, phpBB3 is feature-rich, user-friendly, and fully supported by the phpBB Team. phpBB3 greatly improves on what made phpBB2 popular, and adds commonly requested features that were not present in previous versions. We hope it exceeds your expectations.<br /><br />This installation system will guide you through installing phpBB3, updating to the latest version of phpBB3 from past releases, as well as converting to phpBB3 from a different discussion board system (including phpBB2). For more information, we encourage you to read <a href="../docs/INSTALL.html">the installation guide</a>.<br /><br />To read the phpBB3 license or learn about obtaining support and our stance on it, please select the respective options from the side menu. To continue, please select the appropriate tab above.',
+	'INTRODUCTION_TITLE'	=> 'Įvadas',
+	'INTRODUCTION_BODY'		=> 'Sveiki atvykę į phpBB3!<br /><br />phpBB® yra labiausiai pasaulyje paplitusi atvirojo kodo forumų programinė įranga. phpBB3 yra naujausia versija, pradėta 2000 metais. phpBB3 turi daug funkcijų, yra patogi vartotojui ir visapusiškai palaikoma phpBB komandos. phpBB3 gerokai patobulino tai, kas padarė phpBB2 populiarų, ir pridėjo dažnai prašomas funkcijas. Tikimės, kad ji viršys jūsų lūkesčius.<br /><br />Ši diegimo sistema padės įdiegti phpBB3, atnaujinti iki naujausios phpBB3 versijos bei konvertuoti į phpBB3 iš kitos diskusijų lentos sistemos (įskaitant phpBB2). Dėl daugiau informacijos siūlome perskaityti <a href="../docs/INSTALL.html">diegimo vadovą</a>.<br /><br />Norėdami perskaityti phpBB3 licenciją arba sužinoti apie palaikymą, pasirinkite atitinkamas parinktis šoniniame meniu. Norėdami tęsti, pasirinkite atitinkamą skirtuką aukščiau.',
 
 	// Support page
-	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, follow us on <a href="https://www.twitter.com/phpbb/">Twitter</a> and <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
+	'SUPPORT_TITLE'		=> 'Palaikymas',
+	'SUPPORT_BODY'		=> 'Visapusiškas palaikymas bus teikiamas dabartiniam stabiliam phpBB3 leidimui nemokamai. Tai apima:</p><ul><li>diegimą</li><li>konfigūravimą</li><li>techninius klausimus</li><li>problemas, susijusias su galimai klaidomis programinėje įrangoje</li><li>atnaujinimą iš išleidimo kandidato (RC) versijų į naujausią stabilią versiją</li><li>konvertavimą iš phpBB 2.0.x į phpBB3</li><li>konvertavimą iš kitos diskusijų lentos programinės įrangos į phpBB3 (skaitykite <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertuotojų forumą</a>)</li></ul><p>Skatiname vartotojus, vis dar naudojančius beta versijas, pakeisti savo diegimą naujausios versijos kopija.</p><h2>Pratesinimai / Stiliai</h2><p>Dėl su pratęsinimais susijusių problemų skelbkite atitinkamame <a href="https://www.phpbb.com/community/viewforum.php?f=451">Pratęsinimų forume</a>.<br />Dėl su stiliais, šablonais ir temomis susijusių problemų skelbkite atitinkamame <a href="https://www.phpbb.com/community/viewforum.php?f=471">Stilių forume</a>.<br /><br />Jei jūsų klausimas susijęs su konkrečiu paketu, skelbkite tiesiogiai temoje, skirtoje tam paketui.</p><h2>Palaikymo gavimas</h2><p><a href="https://www.phpbb.com/support/">Palaikymo skyrius</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Greito pradžios vadovas</a><br /><br />Norėdami gauti naujausias naujienas ir leidimus, sekite mus <a href="https://www.twitter.com/phpbb/">Twitter</a> ir <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
 
 	// License
-	'LICENSE_TITLE'		=> 'General Public License',
+	'LICENSE_TITLE'		=> 'Bendroji viešoji licencija',
 
 	// Install page
-	'INSTALL_INTRO'			=> 'Welcome to Installation',
-	'INSTALL_INTRO_BODY'	=> 'With this option, it is possible to install phpBB3 onto your server.</p><p>In order to proceed, you will need your database settings. If you do not know your database settings, please contact your host and ask for them. You will not be able to continue without them. You need:</p>
+	'INSTALL_INTRO'			=> 'Sveiki atvykę į diegimą',
+	'INSTALL_INTRO_BODY'	=> 'Naudodami šią parinktį galite įdiegti phpBB3 savo serveryje.</p><p>Norint tęsti, jums reikės duomenų bazės nustatymų. Jei nežinote savo duomenų bazės nustatymų, susisiekite su savo prieglobos teikėju. Jums reikia:</p>
 
 	<ul>
-		<li>The Database Type - the database you will be using.</li>
-		<li>The Database server hostname or DSN - the address of the database server.</li>
-		<li>The Database server port - the port of the database server (most of the time this is not needed).</li>
-		<li>The Database name - the name of the database on the server.</li>
-		<li>The Database username and Database password - the login data to access the database.</li>
+		<li>Duomenų bazės tipo – duomenų bazės, kurią naudosite.</li>
+		<li>Duomenų bazės serverio pagrindinio kompiuterio vardo arba DSN – duomenų bazės serverio adreso.</li>
+		<li>Duomenų bazės serverio prievado – duomenų bazės serverio prievado (daugeliu atveju to nereikia).</li>
+		<li>Duomenų bazės pavadinimo – duomenų bazės pavadinimo serveryje.</li>
+		<li>Duomenų bazės vartotojo vardo ir slaptažodžio – prisijungimo duomenų duomenų bazei pasiekti.</li>
 	</ul>
 
-	<p><strong>Note:</strong> if you are installing using SQLite, you should enter the full path to your database file in the DSN field and leave the username and password fields blank. For security reasons, you should make sure that the database file is not stored in a location accessible from the web.</p>
+	<p><strong>Pastaba:</strong> jei diegiate naudodami SQLite, DSN lauke įveskite pilną duomenų bazės failo kelią ir palikite vartotojo vardo ir slaptažodžio laukus tuščius. Dėl saugumo priemonių įsitikinkite, kad duomenų bazės failas nebūtų saugomas vietoje, pasiekiamoje iš interneto.</p>
 
-	<p>phpBB3 supports the following databases:</p>
+	<p>phpBB3 palaiko šias duomenų bazes:</p>
 	<ul>
-		<li>MySQL 3.23 or above (MySQLi supported)</li>
+		<li>MySQL 3.23 arba naujesnė (palaikomas MySQLi)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
-		<li>MS SQL Server 2000 or above (directly or via ODBC)</li>
-		<li>MS SQL Server 2005 or above (native)</li>
+		<li>MS SQL Server 2000 arba naujesnė (tiesiogiai arba per ODBC)</li>
+		<li>MS SQL Server 2005 arba naujesnė (natūrali)</li>
 		<li>Oracle</li>
 	</ul>
 
-	<p>Only those databases supported on your server will be displayed.',
+	<p>Bus rodomos tik jūsų serveryje palaikomos duomenų bazės.',
 
-	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
+	'ACP_LINK'	=> 'Pereiti į <a href="%1$s">ACP</a>',
 
-	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is already installed.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is not installed yet.',
+	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB jau įdiegtas.',
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB dar nėra įdiegtas.',
 ));
 
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'						=> 'File does not exist',
-	'FILE_NOT_EXISTS_EXPLAIN'				=> 'To be able to install phpBB the %1$s file needs to exist.',
-	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'It is recommended that the %1$s file exist for a better forum user experience.',
-	'FILE_NOT_WRITABLE'						=> 'File is not writable',
-	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'To be able to install phpBB the %1$s file needs to be writable.',
-	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'It is recommended that the %1$s file be writable for a better forum user experience.',
+	'FILE_NOT_EXISTS'						=> 'Failas neegzistuoja',
+	'FILE_NOT_EXISTS_EXPLAIN'				=> 'Norint įdiegti phpBB, failas %1$s turi egzistuoti.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Rekomenduojama, kad failas %1$s egzistuotų geresnės forumo patirties dėlei.',
+	'FILE_NOT_WRITABLE'						=> 'Failas nėra įrašomas',
+	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'Norint įdiegti phpBB, failas %1$s turi būti įrašomas.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Rekomenduojama, kad failas %1$s būtų įrašomas geresnės forumo patirties dėlei.',
 
-	'DIRECTORY_NOT_EXISTS'						=> 'Directory does not exist',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'To be able to install phpBB the %1$s directory needs to exist.',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'It is recommended that the %1$s directory exist for a better forum user experience.',
-	'DIRECTORY_NOT_WRITABLE'					=> 'Directory is not writable',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'To be able to install phpBB the %1$s directory needs to be writable.',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'It is recommended that the %1$s directory be writable for a better forum user experience.',
+	'DIRECTORY_NOT_EXISTS'						=> 'Katalogas neegzistuoja',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'Norint įdiegti phpBB, katalogas %1$s turi egzistuoti.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Rekomenduojama, kad katalogas %1$s egzistuotų geresnės forumo patirties dėlei.',
+	'DIRECTORY_NOT_WRITABLE'					=> 'Katalogas nėra įrašomas',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'Norint įdiegti phpBB, katalogas %1$s turi būti įrašomas.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Rekomenduojama, kad katalogas %1$s būtų įrašomas geresnės forumo patirties dėlei.',
 
 	// Server requirements
-	'PHP_VERSION_REQD'					=> 'PHP version',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB requires PHP version 5.4.0 or higher.',
-	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP getimagesize() function is required',
-	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'In order for phpBB to function correctly, the getimagesize function needs to be available.',
-	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 support',
-	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB will not run if your PHP installation is not compiled with UTF-8 support in the PCRE extension.',
-	'PHP_JSON_SUPPORT'					=> 'PHP JSON support',
-	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
-	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM support',
-	'PHP_XML_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP XML/DOM extension needs to be available.',
+	'PHP_VERSION_REQD'					=> 'PHP versija',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB reikalauja PHP versijos 5.4.0 arba naujesnės.',
+	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Reikalinga PHP funkcija getimagesize()',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Kad phpBB veiktų teisingai, funkcija getimagesize turi būti prieinama.',
+	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 palaikymas',
+	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB neveiks, jei PHP nebuvo sukompiliuotas su UTF-8 palaikymu PCRE pratęsinyje.',
+	'PHP_JSON_SUPPORT'					=> 'PHP JSON palaikymas',
+	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Kad phpBB veiktų teisingai, PHP JSON pratęsinys turi būti prieinamas.',
+	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM palaikymas',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Kad phpBB veiktų teisingai, PHP XML/DOM pratęsinys turi būti prieinamas.',
 	'PHP_MBSTRING_SUPPORT'				=> 'PHP mbstring palaikymas',
 	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'Kad phpBB veiktų teisingai, turi būti prieinama PHP mbstring plėtinys.',
-	'PHP_SUPPORTED_DB'					=> 'Supported databases',
-	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'You must have support for at least one compatible database within PHP. If no database modules are shown as available you should contact your hosting provider or review the relevant PHP installation documentation for advice.',
+	'PHP_SUPPORTED_DB'					=> 'Palaikomos duomenų bazės',
+	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Turite turėti bent vienos suderinamosios duomenų bazės palaikymą PHP. Jei nė vienas duomenų bazės modulis nerodomas kaip prieinamas, susisiekite su prieglobos teikėju.',
 
-	'RETEST_REQUIREMENTS'	=> 'Retest requirements',
+	'RETEST_REQUIREMENTS'	=> 'Patikrinti reikalavimus iš naujo',
 
-	'STAGE_REQUIREMENTS'	=> 'Check requirements',
+	'STAGE_REQUIREMENTS'	=> 'Tikrinti reikalavimus',
 ));
 
 // General error messages
 $lang = array_merge($lang, array(
-	'INST_ERR_MISSING_DATA'		=> 'You must fill out all fields in this block.',
+	'INST_ERR_MISSING_DATA'		=> 'Privalote užpildyti visus laukus šiame bloke.',
 
-	'TIMEOUT_DETECTED_TITLE'	=> 'The installer detected a timeout',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'The installer has detected a timeout, you may try to refresh the page, which may lead to data corruption. We suggest that you either increase your timeout settings or try to use the CLI.',
+	'TIMEOUT_DETECTED_TITLE'	=> 'Diegėjas aptiko uždelsimą',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'Diegėjas aptiko uždelsimą. Galite pabandyti atnaujinti puslapį, tačiau tai gali sukelti duomenų sugadinimą. Rekomenduojame padidinti laiko limito nustatymus arba naudoti CLI.',
 ));
 
 // Data obtaining translations
 $lang = array_merge($lang, array(
-	'STAGE_OBTAIN_DATA'	=> 'Set installation data',
+	'STAGE_OBTAIN_DATA'	=> 'Nustatyti diegimo duomenis',
 
 	//
 	// Admin data
 	//
-	'STAGE_ADMINISTRATOR'	=> 'Administrator details',
+	'STAGE_ADMINISTRATOR'	=> 'Administratoriaus duomenys',
 
 	// Form labels
-	'ADMIN_CONFIG'				=> 'Administrator configuration',
-	'ADMIN_PASSWORD'			=> 'Administrator password',
-	'ADMIN_PASSWORD_CONFIRM'	=> 'Confirm administrator password',
-	'ADMIN_PASSWORD_EXPLAIN'	=> 'Please enter a password between 6 and 30 characters in length.',
-	'ADMIN_USERNAME'			=> 'Administrator username',
-	'ADMIN_USERNAME_EXPLAIN'	=> 'Please enter a username between 3 and 20 characters in length.',
+	'ADMIN_CONFIG'				=> 'Administratoriaus konfigūracija',
+	'ADMIN_PASSWORD'			=> 'Administratoriaus slaptažodis',
+	'ADMIN_PASSWORD_CONFIRM'	=> 'Patvirtinti administratoriaus slaptažodį',
+	'ADMIN_PASSWORD_EXPLAIN'	=> 'Įveskite slaptažodį nuo 6 iki 30 simbolių.',
+	'ADMIN_USERNAME'			=> 'Administratoriaus vartotojo vardas',
+	'ADMIN_USERNAME_EXPLAIN'	=> 'Įveskite vartotojo vardą nuo 3 iki 20 simbolių.',
 
 	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'The email address you entered is invalid.',
-	'INST_ERR_PASSWORD_MISMATCH'	=> 'The passwords you entered did not match.',
-	'INST_ERR_PASSWORD_TOO_LONG'	=> 'The password you entered is too long. The maximum length is 30 characters.',
-	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'The password you entered is too short. The minimum length is 6 characters.',
-	'INST_ERR_USER_TOO_LONG'		=> 'The username you entered is too long. The maximum length is 20 characters.',
-	'INST_ERR_USER_TOO_SHORT'		=> 'The username you entered is too short. The minimum length is 3 characters.',
+	'INST_ERR_EMAIL_INVALID'		=> 'Įvestas el. pašto adresas yra neteisingas.',
+	'INST_ERR_PASSWORD_MISMATCH'	=> 'Įvesti slaptažodžiai nesutampa.',
+	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Įvestas slaptažodis per ilgas. Maksimalus ilgis – 30 simbolių.',
+	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Įvestas slaptažodis per trumpas. Minimalus ilgis – 6 simboliai.',
+	'INST_ERR_USER_TOO_LONG'		=> 'Įvestas vartotojo vardas per ilgas. Maksimalus ilgis – 20 simbolių.',
+	'INST_ERR_USER_TOO_SHORT'		=> 'Įvestas vartotojo vardas per trumpas. Minimalus ilgis – 3 simboliai.',
 
 	//
 	// Board data
 	//
 	// Form labels
-	'BOARD_CONFIG'		=> 'Bulletin board configuration',
-	'DEFAULT_LANGUAGE'	=> 'Default language',
-	'BOARD_NAME'		=> 'Title of the board',
-	'BOARD_DESCRIPTION'	=> 'Short description of the board',
+	'BOARD_CONFIG'		=> 'Skelbimų lentos konfigūracija',
+	'DEFAULT_LANGUAGE'	=> 'Numatytoji kalba',
+	'BOARD_NAME'		=> 'Lentos pavadinimas',
+	'BOARD_DESCRIPTION'	=> 'Trumpas lentos aprašymas',
 
 	//
 	// Database data
 	//
-	'STAGE_DATABASE'	=> 'Database settings',
+	'STAGE_DATABASE'	=> 'Duomenų bazės nustatymai',
 
 	// Form labels
-	'DB_CONFIG'				=> 'Database configuration',
-	'DBMS'					=> 'Database type',
-	'DB_HOST'				=> 'Database server hostname or DSN',
-	'DB_HOST_EXPLAIN'		=> 'DSN stands for Data Source Name and is relevant only for ODBC installs. On PostgreSQL, use localhost to connect to the local server via UNIX domain socket and 127.0.0.1 to connect via TCP. For SQLite, enter the full path to your database file.',
-	'DB_PORT'				=> 'Database server port',
-	'DB_PORT_EXPLAIN'		=> 'Leave this blank unless you know the server operates on a non-standard port.',
-	'DB_PASSWORD'			=> 'Database password',
-	'DB_NAME'				=> 'Database name',
-	'DB_USERNAME'			=> 'Database username',
-	'DATABASE_VERSION'		=> 'Database version',
-	'TABLE_PREFIX'			=> 'Prefix for tables in database',
-	'TABLE_PREFIX_EXPLAIN'	=> 'The prefix must start with a letter and must only contain letters, numbers and underscores.',
+	'DB_CONFIG'				=> 'Duomenų bazės konfigūracija',
+	'DBMS'					=> 'Duomenų bazės tipas',
+	'DB_HOST'				=> 'Duomenų bazės serverio pavadinimas arba DSN',
+	'DB_HOST_EXPLAIN'		=> 'DSN reiškia duomenų šaltinio pavadinimą ir yra aktualus tik ODBC diegimams. PostgreSQL atveju naudokite localhost prisijungimui per UNIX domeno prievadą ir 127.0.0.1 prisijungimui per TCP. SQLite atveju įveskite pilną duomenų bazės failo kelią.',
+	'DB_PORT'				=> 'Duomenų bazės serverio prievadas',
+	'DB_PORT_EXPLAIN'		=> 'Palikite tuščią, nebent žinote, kad serveris naudoja nestandartinį prievadą.',
+	'DB_PASSWORD'			=> 'Duomenų bazės slaptažodis',
+	'DB_NAME'				=> 'Duomenų bazės pavadinimas',
+	'DB_USERNAME'			=> 'Duomenų bazės vartotojo vardas',
+	'DATABASE_VERSION'		=> 'Duomenų bazės versija',
+	'TABLE_PREFIX'			=> 'Lentelių prefiksas duomenų bazėje',
+	'TABLE_PREFIX_EXPLAIN'	=> 'Prefiksas turi prasidėti raide ir gali sudaryti tik raidės, skaičiai ir pabraukimai.',
 
 	// Database options
-	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
-	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
+	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ per ODBC',
+	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Natūrali ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
-	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
+	'DB_OPTION_MYSQLI'		=> 'MySQL su MySQLi plėtiniu',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
-	'INST_ERR_DB'					=> 'Database installation error',
-	'INST_ERR_NO_DB'				=> 'Cannot load the PHP module for the selected database type.',
-	'INST_ERR_DB_INVALID_PREFIX'	=> 'The prefix you entered is invalid. It must start with a letter and must only contain letters, numbers and underscores.',
-	'INST_ERR_PREFIX_TOO_LONG'		=> 'The table prefix you have specified is too long. The maximum length is %d characters.',
-	'INST_ERR_DB_NO_NAME'			=> 'No database name specified.',
-	'INST_ERR_DB_FORUM_PATH'		=> 'The database file specified is within your board directory tree. You should put this file in a non web-accessible location.',
-	'INST_ERR_DB_CONNECT'			=> 'Could not connect to the database, see error message below.',
-	'INST_ERR_DB_NO_WRITABLE'		=> 'Both the database and the directory containing it must be writable.',
-	'INST_ERR_DB_NO_ERROR'			=> 'No error message given.',
-	'INST_ERR_PREFIX'				=> 'Tables with the specified prefix already exist, please choose an alternative.',
-	'INST_ERR_DB_NO_MYSQLI'			=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
-	'INST_ERR_DB_NO_SQLITE3'		=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 3.6.15.',
-	'INST_ERR_DB_NO_ORACLE'			=> 'The version of Oracle installed on this machine requires you to set the <var>NLS_CHARACTERSET</var> parameter to <var>UTF8</var>. Either upgrade your installation to 9.2+ or change the parameter.',
-	'INST_ERR_DB_NO_POSTGRES'		=> 'The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding.',
-	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'The schema file is not writable',
+	'INST_ERR_DB'					=> 'Duomenų bazės diegimo klaida',
+	'INST_ERR_NO_DB'				=> 'Nepavyko įkelti PHP modulio pasirinktam duomenų bazės tipui.',
+	'INST_ERR_DB_INVALID_PREFIX'	=> 'Įvestas prefiksas yra neteisingas. Jis turi prasidėti raide ir gali sudaryti tik raidės, skaičiai ir pabraukimai.',
+	'INST_ERR_PREFIX_TOO_LONG'		=> 'Nurodytas lentelės prefiksas per ilgas. Maksimalus ilgis – %d simboliai.',
+	'INST_ERR_DB_NO_NAME'			=> 'Nenurodytas duomenų bazės pavadinimas.',
+	'INST_ERR_DB_FORUM_PATH'		=> 'Nurodytas duomenų bazės failas yra jūsų lentos katalogo medyje. Šį failą turėtumėte perkelti į vietą, nepasiekiamą iš interneto.',
+	'INST_ERR_DB_CONNECT'			=> 'Nepavyko prisijungti prie duomenų bazės, žr. klaidos pranešimą žemiau.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Tiek duomenų bazė, tiek ją turintis katalogas turi būti įrašomi.',
+	'INST_ERR_DB_NO_ERROR'			=> 'Klaidos pranešimas nepateiktas.',
+	'INST_ERR_PREFIX'				=> 'Lentelės su nurodytu prefiksu jau egzistuoja, pasirinkite kitą.',
+	'INST_ERR_DB_NO_MYSQLI'			=> 'Šiame kompiuteryje įdiegta MySQL versija nesuderinama su pasirinkta parinktimi „MySQL su MySQLi plėtiniu". Bandykite parinktį „MySQL".',
+	'INST_ERR_DB_NO_SQLITE3'		=> 'Įdiegta SQLite plėtinio versija per sena, ji turi būti atnaujinta iki bent 3.6.15.',
+	'INST_ERR_DB_NO_ORACLE'			=> 'Šiame kompiuteryje įdiegta Oracle versija reikalauja, kad <var>NLS_CHARACTERSET</var> parametras būtų nustatytas į <var>UTF8</var>. Arba atnaujinkite diegimą iki 9.2+ arba pakeiskite parametrą.',
+	'INST_ERR_DB_NO_POSTGRES'		=> 'Pasirinkta duomenų bazė nebuvo sukurta naudojant <var>UNICODE</var> arba <var>UTF8</var> koduotę. Bandykite diegti su duomenų baze <var>UNICODE</var> arba <var>UTF8</var> koduotėje.',
+	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'Schemos failas nėra įrašomas',
 
 	//
 	// Email data
@@ -217,9 +217,9 @@ $lang = array_merge($lang, array(
 	'EMAIL_CONFIG'	=> 'E-mail configuration',
 
 	// Package info
-	'PACKAGE_VERSION'					=> 'Package version installed',
-	'UPDATE_INCOMPLETE'				=> 'Your phpBB installation has not been correctly updated.',
-	'UPDATE_INCOMPLETE_MORE'		=> 'Please read the information below in order to fix this error.',
+	'PACKAGE_VERSION'					=> 'Įdiegto paketo versija',
+	'UPDATE_INCOMPLETE'				=> 'Jūsų phpBB diegimas nebuvo teisingai atnaujintas.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Perskaitykite informaciją žemiau, kad ištaisytumėte šią klaidą.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
 
 		<p>We noticed that the last update of your phpBB installation hasn’t been completed. Visit the <a href="%1$s" title="%1$s">database updater</a>, ensure <em>Update database only</em> is selected and click on <strong>Submit</strong>. Don\'t forget to delete the "install"-directory after you have updated the database sucessfully.</p>',

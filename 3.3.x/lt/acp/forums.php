@@ -129,12 +129,12 @@ $lang = array_merge($lang, array(
 	'GENERAL_FORUM_SETTINGS'	=> 'General forum settings',
 
 	'LINK'						=> 'Link',
+	'LIMIT_SUBFORUMS'			=> 'Limit legend to direct child-subforums',
+	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Limits the subforums to be displayed to subforums that are direct descendants (children) of the current forum. Disabling this will display all subforums with the “List subforums in legend” option enabled, regardless of depth.',
 	'LIST_INDEX'				=> 'List subforum in parent-forum’s legend',
 	'LIST_INDEX_EXPLAIN'		=> 'Displays this forum on the index and elsewhere as a link within the legend of its parent-forum if the parent-forum’s “List subforums in legend” option is enabled.',
 	'LIST_SUBFORUMS'			=> 'List subforums in legend',
 	'LIST_SUBFORUMS_EXPLAIN'	=> 'Displays this forum’s subforums on the index and elsewhere as a link within the legend if their “List subforum in parent-forum’s legend” option is enabled.',
-	'LIMIT_SUBFORUMS'		=> 'Riboti legendą iki tiesioginės vaikų poforumai',
-	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Riboja rodomomis legendoje subforumus tik priešingai vaikų be kito mazgo poforumai rekursyviai.',
 	'LOCKED'					=> 'Locked',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'The forum you selected for moving the posts to is not postable. Please select a postable forum.',

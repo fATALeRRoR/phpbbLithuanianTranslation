@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
 *
 * This file is part of the phpBB Forum Software package.
@@ -68,7 +68,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximum drive space available for attachments for the whole board, with 0 being unlimited.',
 	'ATTACH_TO_POST'					=> 'Attach file to post',
 
-	'CAT_FLASH_FILES'			=> 'Flash files',
 	'CAT_IMAGES'				=> 'Images',
 	'CHECK_CONTENT'				=> 'Check attachment files',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Some browsers can be tricked to assume an incorrect mimetype for uploaded files. This option ensures that such files likely to cause this are rejected.',
@@ -99,7 +98,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES'			=> 'Archives',
 	'EXT_GROUP_DOCUMENTS'			=> 'Documents',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Downloadable Files',
-	'EXT_GROUP_FLASH_FILES'			=> 'Flash Files',
 	'EXT_GROUP_IMAGES'				=> 'Images',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Plain Text',
 
@@ -111,10 +109,10 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Image link dimensions',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Display image attachment as an inline text link if image is larger than this. To disable this behaviour, set the values to 0px by 0px.',
-	'IMAGE_QUALITY'					=> 'Įkeltų paveikslėlių kokybė (tik JPEG)',
-	'IMAGE_QUALITY_EXPLAIN'			=> 'Nurodykite reikšmę tarp 50% (mažesnis failo dydis) ir 90% (aukštesnė kokybė). Reikšmės didesnės nei 90% labai pailgins įkėlimą be akivaizdaus kokybės pagerėjimo.',
-	'IMAGE_STRIP_METADATA'			=> 'Pašalinti paveikslėlio metaduomenis (tik JPEG)',
-	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Pašalinti Exif metaduomenis iš įkeltų JPEG paveikslėlių. Tai padeda apšisti vartotojų privatumą pašalinant GPS koordinates, kameros informaciją ir kitus metaduomenis.',
+	'IMAGE_QUALITY'				=> 'Quality of uploaded image attachments (JPEG only)',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Specify value between 50% (smaller file size) and 90% (higher quality). Quality higher than 90% increases filesize and is disabled. Setting only applies if maximum image dimensions are set to a value other than 0px by 0px.',
+	'IMAGE_STRIP_METADATA'		=> 'Strip image metadata (JPEG only)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Strip Exif metadata, e.g. author name, GPS coordinates and camera details. Setting only applies if maximum image dimensions are set to a value other than 0px by 0px.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximum number of attachments per post',
 	'MAX_ATTACHMENTS_PM'			=> 'Maximum number of attachments per private message',
@@ -133,10 +131,10 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'				=> 'Not assigned',
 	'NO_ATTACHMENTS'			=> 'No attachments found for this period.',
 	'NO_EXT_GROUP'				=> 'None',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'There are no <a href="%s">allowed extension groups</a> for private messages.',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'There are no <a href="%s">allowed extension groups</a> for posts.',
 	'NO_EXT_GROUP_NAME'			=> 'No group name entered',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'No extension group specified.',
-	'NO_EXT_GROUP_ALLOWED_PM'	=> 'Nėra <a href="%s">leidiamų išplėtimo grupių</a> asmeninėms žinutėms.',
-	'NO_EXT_GROUP_ALLOWED_POST'	=> 'Nėra <a href="%s">leidiamų išplėtimo grupių</a> pranešimams.',
 	'NO_FILE_CAT'				=> 'None',
 	'NO_IMAGE'					=> 'No image',
 	'NO_UPLOAD_DIR'				=> 'The upload directory you specified does not exist.',
@@ -168,9 +166,9 @@ $lang = array_merge($lang, array(
 	'UPLOADING_FILES'				=> 'Uploading files',
 	'UPLOADING_FILE_TO'				=> 'Uploading file “%1$s” to post number %2$d…',
 	'UPLOAD_DENIED_FORUM'			=> 'You do not have the permission to upload files to forum “%s”.',
-	'UPLOAD_POST_NOT_EXIST'			=> 'Failo "%1$s" nepavyksta įkelti į pranešimą Nr. %2$d, nes toks pranešimas neegzistuoja.',
 	'UPLOAD_DIR'					=> 'Upload directory',
 	'UPLOAD_DIR_EXPLAIN'			=> 'Storage path for attachments. Please note that if you change this directory while already having uploaded attachments you need to manually copy the files to their new location.',
 	'UPLOAD_ICON'					=> 'Upload icon',
 	'UPLOAD_NOT_DIR'				=> 'The upload location you specified does not appear to be a directory.',
+	'UPLOAD_POST_NOT_EXIST'			=> 'File “%1$s” can not be uploaded to post number %2$d as the post does not exist.',
 ));
